@@ -118,56 +118,54 @@ export async function PATCH(request: Request, { params }: RouteContext) {
       .map((item) => item.id)
       .filter((itemId: unknown): itemId is string => typeof itemId === "string")
 
-    const updated = await prisma.$transaction(async (tx) => {
-      await tx.learningCollection.update({
-        where: { id },
-        data: {
-          title,
-          description: body.description ? String(body.description).trim() : null,
-          topic,
-          difficulty: normalizeLevel(typeof body.difficulty === "string" ? body.difficulty : collection.difficulty),
-          isPublic: typeof body.isPublic === "boolean" ? body.isPublic : collection.isPublic,
-        },
-      })
+    await prisma.learningCollection.update({
+      where: { id },
+      data: {
+        title,
+        description: body.description ? String(body.description).trim() : null,
+        topic,
+        difficulty: normalizeLevel(typeof body.difficulty === "string" ? body.difficulty : collection.difficulty),
+        isPublic: typeof body.isPublic === "boolean" ? body.isPublic : collection.isPublic,
+      },
+    })
 
-      await tx.collectionItem.deleteMany({
-        where: {
-          collectionId: id,
-          ...(keepIds.length ? { id: { notIn: keepIds } } : {}),
-        },
-      })
+    await prisma.collectionItem.deleteMany({
+      where: {
+        collectionId: id,
+        ...(keepIds.length ? { id: { notIn: keepIds } } : {}),
+      },
+    })
 
-      for (const [index, item] of cleanItems.entries()) {
-        if (typeof item.id === "string") {
-          const result = await tx.collectionItem.updateMany({
-            where: { id: item.id, collectionId: id },
-            data: {
-              title: item.title,
-              url: item.url,
-              type: item.type,
-              sortOrder: index,
-            },
-          })
-          if (result.count === 0) throw new Error("题单条目不存在或不属于该题单")
-        } else {
-          await tx.collectionItem.create({
-            data: {
-              collectionId: id,
-              title: item.title,
-              url: item.url,
-              type: item.type,
-              sortOrder: index,
-            },
-          })
-        }
+    for (const [index, item] of cleanItems.entries()) {
+      if (typeof item.id === "string") {
+        const result = await prisma.collectionItem.updateMany({
+          where: { id: item.id, collectionId: id },
+          data: {
+            title: item.title,
+            url: item.url,
+            type: item.type,
+            sortOrder: index,
+          },
+        })
+        if (result.count === 0) throw new Error("题单条目不存在或不属于该题单")
+      } else {
+        await prisma.collectionItem.create({
+          data: {
+            collectionId: id,
+            title: item.title,
+            url: item.url,
+            type: item.type,
+            sortOrder: index,
+          },
+        })
       }
+    }
 
-      const itemCount = await tx.collectionItem.count({ where: { collectionId: id } })
-      return tx.learningCollection.update({
-        where: { id },
-        data: { itemCount },
-        include: { items: { orderBy: { sortOrder: "asc" } } },
-      })
+    const itemCount = await prisma.collectionItem.count({ where: { collectionId: id } })
+    const updated = await prisma.learningCollection.update({
+      where: { id },
+      data: { itemCount },
+      include: { items: { orderBy: { sortOrder: "asc" } } },
     })
 
     return NextResponse.json(updated)
