@@ -1,0 +1,29 @@
+[
+  {
+    "title": "机器学习基础路线",
+    "description": "从数学基础、Python 数据处理到 sklearn 实战的入门路径。",
+    "topic": "machine-learning",
+    "difficulty": "beginner",
+    "isPublic": true,
+    "items": [
+      {
+        "title": "线性代数基础",
+        "type": "article",
+        "url": "https://www.khanacademy.org/math/linear-algebra",
+        "estimatedHours": 3
+      },
+      {
+        "title": "NumPy 快速入门",
+        "type": "article",
+        "url": "https://numpy.org/doc/stable/user/quickstart.html",
+        "estimatedHours": 2
+      },
+      {
+        "title": "Scikit-learn 官方教程",
+        "type": "course",
+        "url": "https://scikit-learn.org/stable/tutorial/index.html",
+        "estimatedHours": 4
+      }
+    ]
+  }
+]

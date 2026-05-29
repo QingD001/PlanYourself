@@ -1,0 +1,15 @@
+
+> planyourself@0.1.0 dev C:\Users\Lenovo\Desktop\project\PlanYourself
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.18.10.202:3000
+- Environments: .env
+✓ Ready in 758ms
+Creating turbopack project {
+  dir: 'C:\\Users\\Lenovo\\Desktop\\project\\PlanYourself',
+  testMode: true
+}
+[?25h
+ ELIFECYCLE  Command failed with exit code 4294967295.

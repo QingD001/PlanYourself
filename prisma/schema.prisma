@@ -1,0 +1,212 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String
+  role      String   @default("user")
+  avatarUrl String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  dailyPlans          DailyPlan[]
+  checkIns            CheckIn[]
+  reflections         Reflection[]
+  subscriptions       CollectionSubscription[]
+  collectionProgress  CollectionProgress[]
+  collections         LearningCollection[]
+  userProfile         UserProfile?
+  aiInsights          AIInsight[]
+  activityDays        ActivityDay[]
+}
+
+model DailyPlan {
+  id        String   @id @default(cuid())
+  userId    String
+  date      DateTime
+  note      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user  User   @relation(fields: [userId], references: [id])
+  tasks Task[]
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model Task {
+  id               String    @id @default(cuid())
+  dailyPlanId      String
+  title            String
+  description      String?
+  priority         Int       @default(0)
+  status           String    @default("todo")
+  sortOrder        Int       @default(0)
+  estimatedMinutes Int?
+  actualMinutes    Int?
+  completedAt      DateTime?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  dailyPlan DailyPlan @relation(fields: [dailyPlanId], references: [id], onDelete: Cascade)
+
+  @@index([dailyPlanId])
+}
+
+model CheckIn {
+  id        String   @id @default(cuid())
+  userId    String
+  date      DateTime
+  mood      Int
+  energy    Int
+  note      String?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model Reflection {
+  id              String   @id @default(cuid())
+  userId          String
+  date            DateTime
+  content         String
+  productivity    Int?
+  focus           Int?
+  learningSummary String?
+  aiPrompt        String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}
+
+model LearningCollection {
+  id          String   @id @default(cuid())
+  creatorId   String
+  title       String
+  description String?
+  topic       String
+  difficulty  String   @default("beginner")
+  isPublic    Boolean  @default(true)
+  itemCount   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  creator             User                   @relation(fields: [creatorId], references: [id])
+  items               CollectionItem[]
+  subscriptions       CollectionSubscription[]
+  collectionProgress  CollectionProgress[]
+
+  @@index([topic])
+  @@index([difficulty])
+}
+
+model CollectionItem {
+  id             String   @id @default(cuid())
+  collectionId   String
+  title          String
+  url            String?
+  description    String?
+  type           String   @default("article")
+  sortOrder      Int      @default(0)
+  estimatedHours Float?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  collection LearningCollection  @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  progress   CollectionProgress[]
+
+  @@index([collectionId])
+}
+
+model CollectionSubscription {
+  id           String   @id @default(cuid())
+  userId       String
+  collectionId String
+  subscribedAt DateTime @default(now())
+
+  user       User               @relation(fields: [userId], references: [id])
+  collection LearningCollection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, collectionId])
+}
+
+model CollectionProgress {
+  id               String    @id @default(cuid())
+  userId           String
+  collectionId     String
+  collectionItemId String
+  completed        Boolean   @default(false)
+  completedAt      DateTime?
+
+  user       User               @relation(fields: [userId], references: [id])
+  collection LearningCollection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  item       CollectionItem     @relation(fields: [collectionItemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, collectionItemId])
+  @@index([userId, collectionId])
+}
+
+model UserProfile {
+  id                    String    @id @default(cuid())
+  userId                String    @unique
+  strengths             String    @default("[]")
+  weaknesses            String    @default("[]")
+  learningStyle         String?
+  peakProductivityTimes String?
+  preferredTopics       String?
+  domainLevels          String?
+  studyConsistency      Float?
+  averageDailyStudyMin  Float?
+  rawProfileData        String?
+  lastAnalyzedAt        DateTime?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model AIInsight {
+  id        String   @id @default(cuid())
+  userId    String
+  type      String
+  title     String
+  content   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, createdAt])
+}
+
+model ActivityDay {
+  id              String   @id @default(cuid())
+  userId          String
+  date            DateTime
+  tasksPlanned    Int      @default(0)
+  tasksCompleted  Int      @default(0)
+  completionLevel Int      @default(0)
+  hasCheckIn      Boolean  @default(false)
+  hasReflection   Boolean  @default(false)
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([userId, date])
+  @@index([userId, date])
+}

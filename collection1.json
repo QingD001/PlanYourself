@@ -1,0 +1,89 @@
+[
+  {
+    "title": "算法-计算几何",
+    "description": "涉及凸包、闵可夫斯基和、点集/多边形几何建模、旋转卡壳、最远点对、最小矩形覆盖、半平面交、可行区域判定与几何优化。",
+    "topic": "算法与数据结构",
+    "difficulty": "advanced",
+    "isPublic": true,
+    "items": [
+      {
+        "title": "[HNOI2004] 最佳包裹",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P2287",
+        "estimatedHours": 3
+      },
+      {
+        "title": "[SHOI2012] 信用卡凸包",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P3829",
+        "estimatedHours": 4
+      },
+      {
+        "title": "[Ynoi2018] 末日时在做什么?有没有空?可以来拯救吗?",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P4680",
+        "estimatedHours": 6
+      },
+      {
+        "title": "[JSOI2018] 战争",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P4557",
+        "estimatedHours": 5
+      },
+      {
+        "title": "[CTS2019] 田野",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P5403",
+        "estimatedHours": 6
+      },
+      {
+        "title": "Beauty Contest",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P1452",
+        "estimatedHours": 3
+      },
+      {
+        "title": "[HNOI2007] 最小矩形覆盖",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P3187",
+        "estimatedHours": 5
+      },
+      {
+        "title": "[JLOI2013] 赛车",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P3256",
+        "estimatedHours": 5
+      },
+      {
+        "title": "[ZJOI2008] 瞭望塔",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P2600",
+        "estimatedHours": 5
+      },
+      {
+        "title": "[CQOI2006] 凸多边形",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P4196",
+        "estimatedHours": 5
+      },
+      {
+        "title": "[SDOI2013] 逃考",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P3297",
+        "estimatedHours": 6
+      },
+      {
+        "title": "[SCOI2015] 小凸想跑步",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P4250",
+        "estimatedHours": 6
+      },
+      {
+        "title": "[ZJOI2019] 浙江省选",
+        "type": "problem",
+        "url": "https://www.luogu.com.cn/problem/P5328",
+        "estimatedHours": 7
+      }
+    ]
+  }
+]
