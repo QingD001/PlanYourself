@@ -11,6 +11,7 @@ import {
   getLevelBarClass,
   normalizeLevel,
 } from "@/lib/learning-domains"
+import { fetchJson } from "@/lib/fetch-json"
 
 const domainLabels = Object.fromEntries(LEARNING_DOMAINS.map((domain) => [domain.key, domain.label]))
 const chartColors = ["#2563eb", "#14b8a6", "#f97316", "#8b5cf6", "#e11d48"]
@@ -42,17 +43,13 @@ export default function ProfilePage() {
   const profile = useQuery<Profile>({
     queryKey: ["ai-profile"],
     queryFn: async () => {
-      const res = await fetch("/api/ai/profile")
-      return res.json()
+      return fetchJson<Profile>("/api/ai/profile")
     },
   })
 
   const analyze = useMutation({
     mutationFn: async () => {
-      const res = await fetch("/api/ai/profile", { method: "POST" })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? "画像分析失败")
-      return data
+      return fetchJson<Profile>("/api/ai/profile", { method: "POST" })
     },
     onSuccess: () => profile.refetch(),
   })

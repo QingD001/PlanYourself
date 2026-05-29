@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { format, startOfYear, eachDayOfInterval, endOfYear, getDay } from "date-fns"
 import { useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface ActivityDay {
   date: string
@@ -33,8 +34,7 @@ export function ActivityHeatmap() {
   const { data: activityDays } = useQuery<ActivityDay[]>({
     queryKey: ["activity", year],
     queryFn: async () => {
-      const res = await fetch(`/api/activity?year=${year}`)
-      return res.json()
+      return fetchJson<ActivityDay[]>(`/api/activity?year=${year}`)
     },
   })
 

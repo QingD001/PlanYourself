@@ -70,7 +70,7 @@ const levelAliases: Record<string, DomainLevel> = {
   beginner: "beginner",
   easy: "beginner",
   "getting-started": "beginner",
-  "getting_started": "beginner",
+  getting_started: "beginner",
   入门: "beginner",
   初级: "beginner",
   intermediate: "intermediate",

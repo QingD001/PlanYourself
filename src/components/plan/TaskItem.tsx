@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { Trash2, GripVertical } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 import { cn } from "@/lib/utils"
 
 interface Task {
@@ -21,8 +22,7 @@ export function TaskItem({ task }: { task: Task }) {
 
   const toggleMutation = useMutation({
     mutationFn: async () => {
-      const res = await fetch(`/api/tasks/${task.id}/toggle`, { method: "PATCH" })
-      return res.json()
+      return fetchJson<Task>(`/api/tasks/${task.id}/toggle`, { method: "PATCH" })
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["plan"] })
@@ -31,7 +31,7 @@ export function TaskItem({ task }: { task: Task }) {
 
   const deleteMutation = useMutation({
     mutationFn: async () => {
-      await fetch(`/api/tasks/${task.id}`, { method: "DELETE" })
+      await fetchJson<{ success: boolean }>(`/api/tasks/${task.id}`, { method: "DELETE" })
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["plan"] })

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { signIn } from "next-auth/react"
 import { useState } from "react"
 import { Loader2, UserPlus } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 export default function RegisterPage() {
   const router = useRouter()
@@ -18,15 +19,15 @@ export default function RegisterPage() {
     event.preventDefault()
     setLoading(true)
     setError("")
-    const res = await fetch("/api/auth/register", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, password }),
-    })
-    const data = await res.json()
-    if (!res.ok) {
+    try {
+      await fetchJson<{ ok: boolean }>("/api/auth/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, password }),
+      })
+    } catch (error) {
       setLoading(false)
-      setError(data.error ?? "注册失败")
+      setError(error instanceof Error ? error.message : "注册失败")
       return
     }
     const result = await signIn("credentials", { email, password, redirect: false })

@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useQuery } from "@tanstack/react-query"
 import { format } from "date-fns"
 import { Loader2 } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface Reflection {
   id: string
@@ -23,8 +24,7 @@ export default function ReflectionListPage() {
   const { data, isLoading } = useQuery<ReflectionResponse>({
     queryKey: ["reflections"],
     queryFn: async () => {
-      const res = await fetch("/api/reflections?limit=50")
-      return res.json()
+      return fetchJson<ReflectionResponse>("/api/reflections?limit=50")
     },
   })
 

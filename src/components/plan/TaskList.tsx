@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { Plus } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 import { TaskItem } from "./TaskItem"
 
 interface Task {
@@ -27,10 +28,17 @@ export function TaskList({ plan }: { plan: Plan }) {
 
   const addMutation = useMutation({
     mutationFn: async (title: string) => {
-      const res = await fetch(`/api/plans`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ date: plan.date }) })
-      const created = await res.json()
-      const addRes = await fetch(`/api/plans/${created.id}/tasks`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ title }) })
-      return addRes.json()
+      const created = await fetchJson<Plan>(`/api/plans`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ date: plan.date }),
+      })
+      if (!created.id) throw new Error("计划创建失败")
+      return fetchJson<Task>(`/api/plans/${created.id}/tasks`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title }),
+      })
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["plan"] })
@@ -97,6 +105,11 @@ export function TaskList({ plan }: { plan: Plan }) {
           <Plus className="h-4 w-4" />
         </button>
       </form>
+      {addMutation.error ? (
+        <div className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+          {addMutation.error.message}
+        </div>
+      ) : null}
     </div>
   )
 }

@@ -1,37 +1,42 @@
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
+import { handleRouteError, unauthorized } from "@/lib/route-helpers"
 import { prisma } from "@/lib/prisma"
 
-export async function POST(
-  _request: Request,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  const session = await auth()
-  if (!session?.user?.id) return NextResponse.json({ error: "未登录" }, { status: 401 })
-
-  const { id } = await params
-
-  await prisma.collectionSubscription.upsert({
-    where: { userId_collectionId: { userId: session.user.id, collectionId: id } },
-    create: { userId: session.user.id, collectionId: id },
-    update: {},
-  })
-
-  return NextResponse.json({ subscribed: true })
+type RouteContext = {
+  params: Promise<{ id: string }>
 }
 
-export async function DELETE(
-  _request: Request,
-  { params }: { params: Promise<{ id: string }> }
-) {
-  const session = await auth()
-  if (!session?.user?.id) return NextResponse.json({ error: "未登录" }, { status: 401 })
+export async function POST(_request: Request, { params }: RouteContext) {
+  try {
+    const session = await auth()
+    if (!session?.user?.id) return unauthorized()
 
-  const { id } = await params
+    const { id } = await params
+    await prisma.collectionSubscription.upsert({
+      where: { userId_collectionId: { userId: session.user.id, collectionId: id } },
+      create: { userId: session.user.id, collectionId: id },
+      update: {},
+    })
 
-  await prisma.collectionSubscription.deleteMany({
-    where: { userId: session.user.id, collectionId: id },
-  })
+    return NextResponse.json({ subscribed: true })
+  } catch (error) {
+    return handleRouteError(error)
+  }
+}
 
-  return NextResponse.json({ subscribed: false })
+export async function DELETE(_request: Request, { params }: RouteContext) {
+  try {
+    const session = await auth()
+    if (!session?.user?.id) return unauthorized()
+
+    const { id } = await params
+    await prisma.collectionSubscription.deleteMany({
+      where: { userId: session.user.id, collectionId: id },
+    })
+
+    return NextResponse.json({ subscribed: false })
+  } catch (error) {
+    return handleRouteError(error)
+  }
 }

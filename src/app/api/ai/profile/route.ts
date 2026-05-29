@@ -34,6 +34,15 @@ function safeJsonArray(value?: string | null) {
   }
 }
 
+function safeJsonValue<T>(value: string | null | undefined, fallback: T): T {
+  if (!value) return fallback
+  try {
+    return JSON.parse(value) as T
+  } catch {
+    return fallback
+  }
+}
+
 function inferDomainLevels(progress: CompletedProgress[]) {
   const scoreByDomain = new Map<LearningDomainKey, number>()
   const difficultyScore: Record<string, number> = {
@@ -169,9 +178,7 @@ export async function GET() {
     preferredTopics: trendTopics.length ? trendTopics : safeJsonArray(profile.preferredTopics),
     preferenceDistribution,
     domainLevels: parseDomainLevels(profile.domainLevels),
-    peakProductivityTimes: profile.peakProductivityTimes
-      ? JSON.parse(profile.peakProductivityTimes)
-      : null,
+    peakProductivityTimes: safeJsonValue(profile.peakProductivityTimes, null),
   })
 }
 
@@ -301,11 +308,11 @@ export async function POST() {
 
   return NextResponse.json({
     ...profileData,
-    strengths: JSON.parse(profileData.strengths),
-    weaknesses: JSON.parse(profileData.weaknesses),
-    preferredTopics: JSON.parse(profileData.preferredTopics),
+    strengths: safeJsonValue<string[]>(profileData.strengths, []),
+    weaknesses: safeJsonValue<string[]>(profileData.weaknesses, []),
+    preferredTopics: safeJsonValue<string[]>(profileData.preferredTopics, []),
     preferenceDistribution,
-    domainLevels: JSON.parse(profileData.domainLevels),
-    peakProductivityTimes: JSON.parse(profileData.peakProductivityTimes),
+    domainLevels: safeJsonValue(profileData.domainLevels, DEFAULT_DOMAIN_LEVELS),
+    peakProductivityTimes: safeJsonValue(profileData.peakProductivityTimes, []),
   })
 }

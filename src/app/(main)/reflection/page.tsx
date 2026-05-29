@@ -5,6 +5,7 @@ import { useState } from "react"
 import { useMutation, useQuery } from "@tanstack/react-query"
 import { format } from "date-fns"
 import { BookOpen, Loader2 } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface Reflection {
   content?: string
@@ -55,8 +56,7 @@ export default function ReflectionPage() {
   const reflection = useQuery<Reflection>({
     queryKey: ["reflection", today],
     queryFn: async () => {
-      const res = await fetch(`/api/reflections?date=${today}`)
-      const data = await res.json()
+      const data = await fetchJson<Reflection>(`/api/reflections?date=${today}`)
       if (data.content && !content) setContent(data.content)
       if (data.learningSummary && !learningSummary) setLearningSummary(data.learningSummary)
       if (data.productivity) setProductivity(data.productivity)
@@ -67,7 +67,7 @@ export default function ReflectionPage() {
 
   const save = useMutation({
     mutationFn: async () => {
-      const res = await fetch("/api/reflections", {
+      return fetchJson<Reflection>("/api/reflections", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -78,7 +78,6 @@ export default function ReflectionPage() {
           focus,
         }),
       })
-      return res.json()
     },
     onSuccess: () => reflection.refetch(),
   })

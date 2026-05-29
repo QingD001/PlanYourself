@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useMutation, useQuery } from "@tanstack/react-query"
 import { format } from "date-fns"
 import { Battery, Loader2, SmilePlus } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface CheckIn {
   mood?: number
@@ -20,8 +21,7 @@ export default function CheckInPage() {
   const checkIn = useQuery<CheckIn>({
     queryKey: ["checkin", today],
     queryFn: async () => {
-      const res = await fetch(`/api/checkins?date=${today}`)
-      const data = await res.json()
+      const data = await fetchJson<CheckIn>(`/api/checkins?date=${today}`)
       if (data.mood) setMood(data.mood)
       if (data.energy) setEnergy(data.energy)
       if (data.note) setNote(data.note)
@@ -31,12 +31,11 @@ export default function CheckInPage() {
 
   const save = useMutation({
     mutationFn: async () => {
-      const res = await fetch("/api/checkins", {
+      return fetchJson<CheckIn>("/api/checkins", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ date: today, mood, energy, note }),
       })
-      return res.json()
     },
     onSuccess: () => checkIn.refetch(),
   })

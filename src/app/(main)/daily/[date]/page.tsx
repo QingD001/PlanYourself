@@ -14,6 +14,7 @@ import {
   Sparkles,
 } from "lucide-react"
 import { getLevelBadgeClass, normalizeLevel } from "@/lib/learning-domains"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface Task {
   id: string
@@ -63,38 +64,34 @@ export default function DailyPage({
   const plan = useQuery<DailyPlan>({
     queryKey: ["plan", date],
     queryFn: async () => {
-      const res = await fetch(`/api/plans?date=${date}`)
-      return res.json()
+      return fetchJson<DailyPlan>(`/api/plans?date=${date}`)
     },
   })
 
   const recommendations = useQuery<RecommendationResponse>({
     queryKey: ["daily-recommendations"],
     queryFn: async () => {
-      const res = await fetch("/api/daily-recommendations")
-      return res.json()
+      return fetchJson<RecommendationResponse>("/api/daily-recommendations")
     },
   })
 
   const ensurePlan = async () => {
     if (plan.data?.id) return plan.data
-    const res = await fetch("/api/plans", {
+    return fetchJson<DailyPlan>("/api/plans", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ date }),
     })
-    return res.json()
   }
 
   const addTask = useMutation({
     mutationFn: async (taskTitle?: string) => {
       const currentPlan = await ensurePlan()
-      const res = await fetch(`/api/plans/${currentPlan.id}/tasks`, {
+      return fetchJson<Task>(`/api/plans/${currentPlan.id}/tasks`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title: taskTitle ?? title }),
       })
-      return res.json()
     },
     onSuccess: () => {
       setTitle("")
@@ -104,8 +101,7 @@ export default function DailyPage({
 
   const toggleTask = useMutation({
     mutationFn: async (taskId: string) => {
-      const res = await fetch(`/api/tasks/${taskId}/toggle`, { method: "PATCH" })
-      return res.json()
+      return fetchJson<Task>(`/api/tasks/${taskId}/toggle`, { method: "PATCH" })
     },
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["plan", date] }),
   })

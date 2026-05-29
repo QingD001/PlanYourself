@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useMutation, useQuery } from "@tanstack/react-query"
 import { Loader2, Plus, Trash2 } from "lucide-react"
 import { DOMAIN_LEVELS, LEARNING_DOMAINS, LEVEL_LABELS } from "@/lib/learning-domains"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface DraftItem {
   id: string
@@ -36,14 +37,13 @@ export default function CreateCollectionPage() {
   const limits = useQuery<CollectionLimits>({
     queryKey: ["collection-limits"],
     queryFn: async () => {
-      const res = await fetch("/api/collections/limits")
-      return res.json()
+      return fetchJson<CollectionLimits>("/api/collections/limits")
     },
   })
 
   const create = useMutation({
     mutationFn: async () => {
-      const res = await fetch("/api/collections", {
+      return fetchJson<{ id: string }>("/api/collections", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -54,9 +54,6 @@ export default function CreateCollectionPage() {
           items: items.filter((item) => item.title.trim()),
         }),
       })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? "创建失败")
-      return data
     },
     onSuccess: (data) => router.push(`/collections/${data.id}`),
   })

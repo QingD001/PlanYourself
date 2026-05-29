@@ -25,6 +25,7 @@ import {
   getLevelLabel,
   normalizeLevel,
 } from "@/lib/learning-domains"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface CollectionItem {
   id: string
@@ -86,8 +87,7 @@ export default function CollectionDetailPage({
   const collection = useQuery<Collection>({
     queryKey: ["collection", id],
     queryFn: async () => {
-      const res = await fetch(`/api/collections/${id}`)
-      return res.json()
+      return fetchJson<Collection>(`/api/collections/${id}`)
     },
   })
 
@@ -112,15 +112,14 @@ export default function CollectionDetailPage({
   const subscribe = useMutation({
     mutationFn: async () => {
       const method = collection.data?.isSubscribed ? "DELETE" : "POST"
-      const res = await fetch(`/api/collections/${id}/subscribe`, { method })
-      return res.json()
+      return fetchJson<{ ok: boolean }>(`/api/collections/${id}/subscribe`, { method })
     },
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["collection", id] }),
   })
 
   const saveCollection = useMutation({
     mutationFn: async () => {
-      const res = await fetch(`/api/collections/${id}`, {
+      return fetchJson<Collection>(`/api/collections/${id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -128,9 +127,6 @@ export default function CollectionDetailPage({
           items: draft.items.filter((item) => item.title.trim()),
         }),
       })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? "保存失败")
-      return data
     },
     onSuccess: () => {
       setEditing(false)
@@ -141,10 +137,7 @@ export default function CollectionDetailPage({
 
   const deleteCollection = useMutation({
     mutationFn: async () => {
-      const res = await fetch(`/api/collections/${id}`, { method: "DELETE" })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? "删除失败")
-      return data
+      return fetchJson<{ ok: boolean }>(`/api/collections/${id}`, { method: "DELETE" })
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["collections"] })
@@ -154,8 +147,7 @@ export default function CollectionDetailPage({
 
   const toggleItem = useMutation({
     mutationFn: async (itemId: string) => {
-      const res = await fetch(`/api/collections/${id}/items/${itemId}`, { method: "PATCH" })
-      return res.json()
+      return fetchJson<{ ok: boolean }>(`/api/collections/${id}/items/${itemId}`, { method: "PATCH" })
     },
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["collection", id] }),
   })
@@ -164,6 +156,14 @@ export default function CollectionDetailPage({
     return (
       <div className="flex justify-center py-20 text-slate-400">
         <Loader2 className="h-5 w-5 animate-spin" />
+      </div>
+    )
+  }
+
+  if (collection.error) {
+    return (
+      <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+        {collection.error.message}
       </div>
     )
   }
@@ -234,7 +234,11 @@ export default function CollectionDetailPage({
                 <span className="rounded-full bg-blue-50 px-2 py-1 text-blue-700">
                   {getDomainLabel(collection.data.topic)}
                 </span>
-                <span className={`rounded-full px-2 py-1 font-medium ring-1 ${getLevelBadgeClass(normalizeLevel(collection.data.difficulty))}`}>
+                <span
+                  className={`rounded-full px-2 py-1 font-medium ring-1 ${getLevelBadgeClass(
+                    normalizeLevel(collection.data.difficulty)
+                  )}`}
+                >
                   {getLevelLabel(normalizeLevel(collection.data.difficulty))}
                 </span>
               </div>
@@ -311,9 +315,9 @@ export default function CollectionDetailPage({
         </div>
       </section>
 
-      {saveCollection.error || deleteCollection.error ? (
+      {saveCollection.error || deleteCollection.error || subscribe.error ? (
         <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-          {saveCollection.error?.message ?? deleteCollection.error?.message}
+          {saveCollection.error?.message ?? deleteCollection.error?.message ?? subscribe.error?.message}
         </div>
       ) : null}
 

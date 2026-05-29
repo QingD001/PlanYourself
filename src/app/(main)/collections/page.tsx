@@ -5,6 +5,7 @@ import { useState } from "react"
 import { useQuery } from "@tanstack/react-query"
 import { BookOpen, Loader2, Plus } from "lucide-react"
 import { getDomainLabel, getLevelBadgeClass, getLevelLabel, normalizeLevel } from "@/lib/learning-domains"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface Collection {
   id: string
@@ -25,12 +26,11 @@ const tabs = [
 export default function CollectionsPage() {
   const [tab, setTab] = useState("")
 
-  const { data, isLoading } = useQuery<Collection[]>({
+  const { data, error, isLoading } = useQuery<Collection[]>({
     queryKey: ["collections", tab],
     queryFn: async () => {
       const query = tab ? `?tab=${tab}` : ""
-      const res = await fetch(`/api/collections${query}`)
-      return res.json()
+      return fetchJson<Collection[]>(`/api/collections${query}`)
     },
   })
 
@@ -67,6 +67,10 @@ export default function CollectionsPage() {
       {isLoading ? (
         <div className="flex justify-center py-16 text-slate-400">
           <Loader2 className="h-5 w-5 animate-spin" />
+        </div>
+      ) : error ? (
+        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          {error.message}
         </div>
       ) : (
         <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">

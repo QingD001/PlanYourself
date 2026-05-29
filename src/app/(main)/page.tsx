@@ -12,6 +12,7 @@ import {
   Loader2,
   Sparkles,
 } from "lucide-react"
+import { fetchJson } from "@/lib/fetch-json"
 
 interface Task {
   id: string
@@ -67,24 +68,21 @@ export default function DashboardPage() {
   const plan = useQuery<DailyPlan>({
     queryKey: ["plan", today],
     queryFn: async () => {
-      const res = await fetch(`/api/plans?date=${today}`)
-      return res.json()
+      return fetchJson<DailyPlan>(`/api/plans?date=${today}`)
     },
   })
 
   const stats = useQuery<StreakStats>({
     queryKey: ["checkin-stats"],
     queryFn: async () => {
-      const res = await fetch("/api/checkins/stats")
-      return res.json()
+      return fetchJson<StreakStats>("/api/checkins/stats")
     },
   })
 
   const reflections = useQuery<ReflectionList>({
     queryKey: ["reflection-summary"],
     queryFn: async () => {
-      const res = await fetch("/api/reflections?limit=1")
-      return res.json()
+      return fetchJson<ReflectionList>("/api/reflections?limit=1")
     },
   })
 
