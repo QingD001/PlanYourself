@@ -9,6 +9,7 @@ import {
 import { normalizeLevel } from "@/lib/learning-domains"
 import { normalizeCollectionType } from "@/lib/collection-types"
 import { badRequest, handleRouteError, readJsonBody, unauthorized } from "@/lib/route-helpers"
+import { validateUserSubmittedUrl } from "@/lib/url-safety"
 import { prisma } from "@/lib/prisma"
 
 type IncomingItem = { title?: string; url?: string; type?: string }
@@ -136,18 +137,20 @@ export async function POST(request: Request) {
     if (!topic) return badRequest("题单方向不能为空")
 
     const rawItems = Array.isArray(body.items) ? body.items : []
+    const admin = isAdmin(currentUser)
     const cleanItems = rawItems
       .map((item) => {
         const row = item as IncomingItem
+        const url = row.url ? String(row.url).trim() : null
         return {
           title: String(row.title ?? "").trim(),
-          url: row.url ? String(row.url).trim() : null,
+          url: admin ? url : validateUserSubmittedUrl(url),
           type: normalizeCollectionType(row.type),
         }
       })
       .filter((item) => item.title)
 
-    if (!isAdmin(currentUser) && cleanItems.length > USER_COLLECTION_ITEM_LIMIT) {
+    if (!admin && cleanItems.length > USER_COLLECTION_ITEM_LIMIT) {
       return NextResponse.json(
         { error: `普通用户每个题单最多只能包含 ${USER_COLLECTION_ITEM_LIMIT} 题` },
         { status: 403 }

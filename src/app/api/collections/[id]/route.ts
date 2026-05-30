@@ -7,6 +7,7 @@ import {
 } from "@/lib/permissions"
 import { normalizeLevel } from "@/lib/learning-domains"
 import { normalizeCollectionType } from "@/lib/collection-types"
+import { validateUserSubmittedUrl } from "@/lib/url-safety"
 import {
   badRequest,
   forbidden,
@@ -93,17 +94,21 @@ export async function PATCH(request: Request, { params }: RouteContext) {
 
     const body = await readJsonBody(request)
 
+    const admin = isAdmin(currentUser)
     const items = (Array.isArray(body.items) ? body.items : []) as IncomingItem[]
     const cleanItems = items
-      .map((item) => ({
-        id: item.id,
-        title: String(item.title ?? "").trim(),
-        url: item.url ? String(item.url).trim() : null,
-        type: normalizeCollectionType(item.type),
-      }))
+      .map((item) => {
+        const url = item.url ? String(item.url).trim() : null
+        return {
+          id: item.id,
+          title: String(item.title ?? "").trim(),
+          url: admin ? url : validateUserSubmittedUrl(url),
+          type: normalizeCollectionType(item.type),
+        }
+      })
       .filter((item) => item.title)
 
-    if (!isAdmin(currentUser) && cleanItems.length > USER_COLLECTION_ITEM_LIMIT) {
+    if (!admin && cleanItems.length > USER_COLLECTION_ITEM_LIMIT) {
       return NextResponse.json(
         { error: `普通用户每个题单最多只能包含 ${USER_COLLECTION_ITEM_LIMIT} 题` },
         { status: 403 }

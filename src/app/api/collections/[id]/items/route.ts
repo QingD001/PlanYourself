@@ -6,6 +6,7 @@ import {
   isAdmin,
 } from "@/lib/permissions"
 import { normalizeCollectionType } from "@/lib/collection-types"
+import { validateUserSubmittedUrl } from "@/lib/url-safety"
 import { forbidden, handleRouteError, notFound, readJsonBody, unauthorized } from "@/lib/route-helpers"
 import { prisma } from "@/lib/prisma"
 
@@ -53,7 +54,9 @@ export async function POST(
       data: {
         collectionId: id,
         title,
-        url: body.url ? String(body.url).trim() : null,
+        url: isAdmin(currentUser)
+          ? body.url ? String(body.url).trim() : null
+          : validateUserSubmittedUrl(body.url ? String(body.url).trim() : null),
         type: normalizeCollectionType(typeof body.type === "string" ? body.type : undefined),
         sortOrder: (maxSort?.sortOrder ?? -1) + 1,
       },

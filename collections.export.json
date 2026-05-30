@@ -2551,6 +2551,1010 @@
         }
       ],
       "type": "exercise"
+    },
+    {
+      "title": "吴恩达 2022 机器学习专项课（B站中英字幕）",
+      "description": "Andrew Ng 2022 Machine Learning Specialization B站中英字幕合集，按视频分P拆分为课程条目。",
+      "topic": "machine-learning",
+      "type": "course",
+      "difficulty": "beginner",
+      "isPublic": true,
+      "items": [
+        {
+          "title": "P001 1.1 欢迎来到机器学习!",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=1",
+          "description": "Bilibili 分P：1.1 欢迎来到机器学习!，时长约 3 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        },
+        {
+          "title": "P002 1.2 机器学习的应用",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=2",
+          "description": "Bilibili 分P：1.2 机器学习的应用，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P003 2.1 什么是机器学习",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=3",
+          "description": "Bilibili 分P：2.1 什么是机器学习，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P004 2.2 监督学习 part 1",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=4",
+          "description": "Bilibili 分P：2.2 监督学习 part 1，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P005 2.3 监督学习 part 2",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=5",
+          "description": "Bilibili 分P：2.3 监督学习 part 2，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P006 2.4 非监督学习 part 1",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=6",
+          "description": "Bilibili 分P：2.4 非监督学习 part 1，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P007 2.5 非监督学习 part 2",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=7",
+          "description": "Bilibili 分P：2.5 非监督学习 part 2，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.06
+        },
+        {
+          "title": "P008 2.6 Jupyter Notebooks",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=8",
+          "description": "Bilibili 分P：2.6 Jupyter Notebooks，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.08
+        },
+        {
+          "title": "P009 3.1 线性回归模型 part 1",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=9",
+          "description": "Bilibili 分P：3.1 线性回归模型 part 1，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.17
+        },
+        {
+          "title": "P010 3.2 线性回归模型 part 2",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=10",
+          "description": "Bilibili 分P：3.2 线性回归模型 part 2，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P011 3.3 代价函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=11",
+          "description": "Bilibili 分P：3.3 代价函数，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P012 3.4 代价函数的直观理解",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=12",
+          "description": "Bilibili 分P：3.4 代价函数的直观理解，时长约 16 分钟",
+          "type": "course",
+          "estimatedHours": 0.26
+        },
+        {
+          "title": "P013 3.5 可视化代价函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=13",
+          "description": "Bilibili 分P：3.5 可视化代价函数，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P014 3.6 可视化的例子",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=14",
+          "description": "Bilibili 分P：3.6 可视化的例子，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P015 4.1 梯度下降",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=15",
+          "description": "Bilibili 分P：4.1 梯度下降，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P016 4.2 实现梯度下降",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=16",
+          "description": "Bilibili 分P：4.2 实现梯度下降，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.17
+        },
+        {
+          "title": "P017 4.3 梯度下降的直观理解",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=17",
+          "description": "Bilibili 分P：4.3 梯度下降的直观理解，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P018 4.4 学习率",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=18",
+          "description": "Bilibili 分P：4.4 学习率，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P019 4.5 线性回归中的梯度下降",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=19",
+          "description": "Bilibili 分P：4.5 线性回归中的梯度下降，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P020 4.6 运行梯度下降",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=20",
+          "description": "Bilibili 分P：4.6 运行梯度下降，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P021 5.1 多类特征",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=21",
+          "description": "Bilibili 分P：5.1 多类特征，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P022 5.2 向量化 part 1",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=22",
+          "description": "Bilibili 分P：5.2 向量化 part 1，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P023 5.3 向量化 part 2",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=23",
+          "description": "Bilibili 分P：5.3 向量化 part 2，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P024 5.4 多元线性回归的梯度下降法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=24",
+          "description": "Bilibili 分P：5.4 多元线性回归的梯度下降法，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P025 6.1 特征缩放 part 1",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=25",
+          "description": "Bilibili 分P：6.1 特征缩放 part 1，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P026 6.2 特征缩放 part 2",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=26",
+          "description": "Bilibili 分P：6.2 特征缩放 part 2，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P027 6.3 检查梯度下降是否收敛",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=27",
+          "description": "Bilibili 分P：6.3 检查梯度下降是否收敛，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P028 6.4 学习率的选择",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=28",
+          "description": "Bilibili 分P：6.4 学习率的选择，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P029 6.5 特征工程",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=29",
+          "description": "Bilibili 分P：6.5 特征工程，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        },
+        {
+          "title": "P030 6.6 多项式回归",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=30",
+          "description": "Bilibili 分P：6.6 多项式回归，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P031 7.1 Motivations",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=31",
+          "description": "Bilibili 分P：7.1 Motivations，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P032 7.2 逻辑(logistic)回归",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=32",
+          "description": "Bilibili 分P：7.2 逻辑(logistic)回归，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P033 7.3 决策边界",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=33",
+          "description": "Bilibili 分P：7.3 决策边界，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P034 8.1 逻辑回归的代价函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=34",
+          "description": "Bilibili 分P：8.1 逻辑回归的代价函数，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P035 8.2 逻辑回归的简化版代价函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=35",
+          "description": "Bilibili 分P：8.2 逻辑回归的简化版代价函数，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P036 9.1 梯度下降实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=36",
+          "description": "Bilibili 分P：9.1 梯度下降实现，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P037 10.1 过拟合的问题",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=37",
+          "description": "Bilibili 分P：10.1 过拟合的问题，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P038 10.2 解决过拟合",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=38",
+          "description": "Bilibili 分P：10.2 解决过拟合，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P039 10.3 正则化代价函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=39",
+          "description": "Bilibili 分P：10.3 正则化代价函数，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P040 10.4 正则化线性回归",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=40",
+          "description": "Bilibili 分P：10.4 正则化线性回归，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P041 10.5 正则化logistic回归",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=41",
+          "description": "Bilibili 分P：10.5 正则化logistic回归，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P042 1.1 欢迎来到第二部分:高级学习算法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=42",
+          "description": "Bilibili 分P：1.1 欢迎来到第二部分:高级学习算法，时长约 3 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        },
+        {
+          "title": "P043 1.2 神经元和大脑",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=43",
+          "description": "Bilibili 分P：1.2 神经元和大脑，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P044 1.3 需求预测",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=44",
+          "description": "Bilibili 分P：1.3 需求预测，时长约 17 分钟",
+          "type": "course",
+          "estimatedHours": 0.27
+        },
+        {
+          "title": "P045 1.4 例子：图像识别",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=45",
+          "description": "Bilibili 分P：1.4 例子：图像识别，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P046 2.1 神经网络中的层",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=46",
+          "description": "Bilibili 分P：2.1 神经网络中的层，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P047 2.2 更复杂的神经网络",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=47",
+          "description": "Bilibili 分P：2.2 更复杂的神经网络，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P048 2.3 推理：做出预测(前向传播)",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=48",
+          "description": "Bilibili 分P：2.3 推理：做出预测(前向传播)，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P049 3.1 代码中的推理",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=49",
+          "description": "Bilibili 分P：3.1 代码中的推理，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P050 3.2 TensorFlow中的数据",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=50",
+          "description": "Bilibili 分P：3.2 TensorFlow中的数据，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P051 3.3 构建一个神经网络",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=51",
+          "description": "Bilibili 分P：3.3 构建一个神经网络，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P052 4.1 在一个单层中的前向传播",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=52",
+          "description": "Bilibili 分P：4.1 在一个单层中的前向传播，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P053 4.2 前向传播的一般实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=53",
+          "description": "Bilibili 分P：4.2 前向传播的一般实现，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P054 5.1 是否有路通向AGI(通用人工智能)",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=54",
+          "description": "Bilibili 分P：5.1 是否有路通向AGI(通用人工智能)，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P055 6.1 神经网络如何高效实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=55",
+          "description": "Bilibili 分P：6.1 神经网络如何高效实现，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P056 6.2 矩阵乘法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=56",
+          "description": "Bilibili 分P：6.2 矩阵乘法，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P057 6.3 矩阵乘法的规则",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=57",
+          "description": "Bilibili 分P：6.3 矩阵乘法的规则，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P058 6.4 矩阵乘法代码",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=58",
+          "description": "Bilibili 分P：6.4 矩阵乘法代码，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P059 7.1 TensorFlow实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=59",
+          "description": "Bilibili 分P：7.1 TensorFlow实现，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.06
+        },
+        {
+          "title": "P060 7.2 训练细节",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=60",
+          "description": "Bilibili 分P：7.2 训练细节，时长约 14 分钟",
+          "type": "course",
+          "estimatedHours": 0.23
+        },
+        {
+          "title": "P061 8.1 sigmoid的替代品",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=61",
+          "description": "Bilibili 分P：8.1 sigmoid的替代品，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P062 8.2 选择激活函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=62",
+          "description": "Bilibili 分P：8.2 选择激活函数，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P063 8.3 为什么我们需要激活函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=63",
+          "description": "Bilibili 分P：8.3 为什么我们需要激活函数，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P064 9.1 多类",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=64",
+          "description": "Bilibili 分P：9.1 多类，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.06
+        },
+        {
+          "title": "P065 9.2 Softmax",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=65",
+          "description": "Bilibili 分P：9.2 Softmax，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P066 9.3 神经网络的Softmax输出",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=66",
+          "description": "Bilibili 分P：9.3 神经网络的Softmax输出，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P067 9.4 softmax的改进实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=67",
+          "description": "Bilibili 分P：9.4 softmax的改进实现，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P068 9.5 多个输出的分类(Optional)",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=68",
+          "description": "Bilibili 分P：9.5 多个输出的分类(Optional)，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P069 10.1 高级优化方法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=69",
+          "description": "Bilibili 分P：10.1 高级优化方法，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P070 10.2 Additional Layer Types",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=70",
+          "description": "Bilibili 分P：10.2 Additional Layer Types，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P071 11.1 决定下一步做什么",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=71",
+          "description": "Bilibili 分P：11.1 决定下一步做什么，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.06
+        },
+        {
+          "title": "P072 11.2 模型评估",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=72",
+          "description": "Bilibili 分P：11.2 模型评估，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.17
+        },
+        {
+          "title": "P073 11.3 模型选择和训练交叉验证测试集",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=73",
+          "description": "Bilibili 分P：11.3 模型选择和训练交叉验证测试集，时长约 15 分钟",
+          "type": "course",
+          "estimatedHours": 0.25
+        },
+        {
+          "title": "P074 12.1 诊断偏差和方差",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=74",
+          "description": "Bilibili 分P：12.1 诊断偏差和方差，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P075 12.2 正则化和偏差或方差",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=75",
+          "description": "Bilibili 分P：12.2 正则化和偏差或方差，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P076 12.3 建立表现基准",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=76",
+          "description": "Bilibili 分P：12.3 建立表现基准，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P077 12.4 学习曲线",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=77",
+          "description": "Bilibili 分P：12.4 学习曲线，时长约 13 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P078 12.5 再次决定下一步做什么",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=78",
+          "description": "Bilibili 分P：12.5 再次决定下一步做什么，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P079 12.6 偏差或方差与神经网络",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=79",
+          "description": "Bilibili 分P：12.6 偏差或方差与神经网络，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P080 13.1 机器学习的迭代发展",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=80",
+          "description": "Bilibili 分P：13.1 机器学习的迭代发展，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P081 13.2 误差分析",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=81",
+          "description": "Bilibili 分P：13.2 误差分析，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P082 13.3 添加数据",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=82",
+          "description": "Bilibili 分P：13.3 添加数据，时长约 15 分钟",
+          "type": "course",
+          "estimatedHours": 0.24
+        },
+        {
+          "title": "P083 13.4 迁移学习：使用其他任务中的数据",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=83",
+          "description": "Bilibili 分P：13.4 迁移学习：使用其他任务中的数据，时长约 13 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P084 13.5 机器学习项目的完整周期",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=84",
+          "description": "Bilibili 分P：13.5 机器学习项目的完整周期，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P085 13.6 公平、偏见与伦理",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=85",
+          "description": "Bilibili 分P：13.6 公平、偏见与伦理，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.17
+        },
+        {
+          "title": "P086 14.1 倾斜数据集的误差指标",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=86",
+          "description": "Bilibili 分P：14.1 倾斜数据集的误差指标，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P087 14.2 精确率与召回率的权衡",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=87",
+          "description": "Bilibili 分P：14.2 精确率与召回率的权衡，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P088 15.1 决策树模型",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=88",
+          "description": "Bilibili 分P：15.1 决策树模型，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P089 15.2 学习过程",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=89",
+          "description": "Bilibili 分P：15.2 学习过程，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P090 16.1 测量纯度",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=90",
+          "description": "Bilibili 分P：16.1 测量纯度，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P091 16.2 选择拆分信息增益",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=91",
+          "description": "Bilibili 分P：16.2 选择拆分信息增益，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P092 16.3 整合",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=92",
+          "description": "Bilibili 分P：16.3 整合，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P093 16.4 使用分类特征的一种独热编码(One-Hot)",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=93",
+          "description": "Bilibili 分P：16.4 使用分类特征的一种独热编码(One-Hot)，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P094 16.5 连续的有价值特征",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=94",
+          "description": "Bilibili 分P：16.5 连续的有价值特征，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P095 16.6 回归树 (optional)",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=95",
+          "description": "Bilibili 分P：16.6 回归树 (optional)，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P096 17.1 使用多个决策树",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=96",
+          "description": "Bilibili 分P：17.1 使用多个决策树，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P097 17.2 放回抽样",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=97",
+          "description": "Bilibili 分P：17.2 放回抽样，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P098 17.3 随机森林算法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=98",
+          "description": "Bilibili 分P：17.3 随机森林算法，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P099 17.4 XGBoost",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=99",
+          "description": "Bilibili 分P：17.4 XGBoost，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P100 17.5 什么时候使用决策树",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=100",
+          "description": "Bilibili 分P：17.5 什么时候使用决策树，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.12
+        },
+        {
+          "title": "P101 1.1 欢迎来到第三部分 无监督学习、推荐系统和强化学习",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=101",
+          "description": "Bilibili 分P：1.1 欢迎来到第三部分 无监督学习、推荐系统和强化学习，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.06
+        },
+        {
+          "title": "P102 2.1 什么是聚类",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=102",
+          "description": "Bilibili 分P：2.1 什么是聚类，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.07
+        },
+        {
+          "title": "P103 2.2 K-means的直观理解",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=103",
+          "description": "Bilibili 分P：2.2 K-means的直观理解，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P104 2.3 K-means算法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=104",
+          "description": "Bilibili 分P：2.3 K-means算法，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P105 2.4 优化目标",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=105",
+          "description": "Bilibili 分P：2.4 优化目标，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P106 2.5 初始化K-means",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=106",
+          "description": "Bilibili 分P：2.5 初始化K-means，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P107 2.6 选择聚类的个数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=107",
+          "description": "Bilibili 分P：2.6 选择聚类的个数，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P108 3.1 发现异常事件",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=108",
+          "description": "Bilibili 分P：3.1 发现异常事件，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P109 3.2 高斯（正态）分布",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=109",
+          "description": "Bilibili 分P：3.2 高斯（正态）分布，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P110 3.3 异常检测算法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=110",
+          "description": "Bilibili 分P：3.3 异常检测算法，时长约 13 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P111 3.4 开发和评估异常检测系统",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=111",
+          "description": "Bilibili 分P：3.4 开发和评估异常检测系统，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P112 3.5 异常检测 vs. 监督学习",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=112",
+          "description": "Bilibili 分P：3.5 异常检测 vs. 监督学习，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P113 3.6 选择要使用的特征",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=113",
+          "description": "Bilibili 分P：3.6 选择要使用的特征，时长约 15 分钟",
+          "type": "course",
+          "estimatedHours": 0.25
+        },
+        {
+          "title": "P114 4.1 提出建议",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=114",
+          "description": "Bilibili 分P：4.1 提出建议，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P115 4.2 使用每项特征",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=115",
+          "description": "Bilibili 分P：4.2 使用每项特征，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P116 4.3 协同过滤算法",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=116",
+          "description": "Bilibili 分P：4.3 协同过滤算法，时长约 14 分钟",
+          "type": "course",
+          "estimatedHours": 0.23
+        },
+        {
+          "title": "P117 4.4 Binary labels- favs, likes and clicks",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=117",
+          "description": "Bilibili 分P：4.4 Binary labels- favs, likes and clicks，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P118 5.1 均值归一化",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=118",
+          "description": "Bilibili 分P：5.1 均值归一化，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P119 5.2 协同过滤的TensorFlow实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=119",
+          "description": "Bilibili 分P：5.2 协同过滤的TensorFlow实现，时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.19
+        },
+        {
+          "title": "P120 5.3 查找相关项目",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=120",
+          "description": "Bilibili 分P：5.3 查找相关项目，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P121 6.1 协同过滤 vs. 基于内容的过滤",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=121",
+          "description": "Bilibili 分P：6.1 协同过滤 vs. 基于内容的过滤，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P122 6.2 Deep learning for content-based filtering",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=122",
+          "description": "Bilibili 分P：6.2 Deep learning for content-based filtering，时长约 10 分钟",
+          "type": "course",
+          "estimatedHours": 0.16
+        },
+        {
+          "title": "P123 6.3 从大目录中推荐",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=123",
+          "description": "Bilibili 分P：6.3 从大目录中推荐，时长约 8 分钟",
+          "type": "course",
+          "estimatedHours": 0.13
+        },
+        {
+          "title": "P124 6.4 推荐系统的道德使用",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=124",
+          "description": "Bilibili 分P：6.4 推荐系统的道德使用，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P125 6.5 基于内容过滤的TensorFlow实现",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=125",
+          "description": "Bilibili 分P：6.5 基于内容过滤的TensorFlow实现，时长约 5 分钟",
+          "type": "course",
+          "estimatedHours": 0.08
+        },
+        {
+          "title": "P126 7.1 什么是强化学习",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=126",
+          "description": "Bilibili 分P：7.1 什么是强化学习，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P127 7.2 火星探测器示例",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=127",
+          "description": "Bilibili 分P：7.2 火星探测器示例，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P128 7.3 The Return in reinforcement learning",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=128",
+          "description": "Bilibili 分P：7.3 The Return in reinforcement learning，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.17
+        },
+        {
+          "title": "P129 7.4 强化学习中的决策与策略制定",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=129",
+          "description": "Bilibili 分P：7.4 强化学习中的决策与策略制定，时长约 3 分钟",
+          "type": "course",
+          "estimatedHours": 0.04
+        },
+        {
+          "title": "P130 7.5 回顾关键概念",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=130",
+          "description": "Bilibili 分P：7.5 回顾关键概念，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P131 8.1 状态动作值函数定义",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=131",
+          "description": "Bilibili 分P：8.1 状态动作值函数定义，时长约 11 分钟",
+          "type": "course",
+          "estimatedHours": 0.18
+        },
+        {
+          "title": "P132 8.2 状态动作值函数示例",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=132",
+          "description": "Bilibili 分P：8.2 状态动作值函数示例，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.09
+        },
+        {
+          "title": "P133 8.3 Bellman方程",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=133",
+          "description": "Bilibili 分P：8.3 Bellman方程，时长约 13 分钟",
+          "type": "course",
+          "estimatedHours": 0.21
+        },
+        {
+          "title": "P134 8.4 随机环境（可选）",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=134",
+          "description": "Bilibili 分P：8.4 随机环境（可选），时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.14
+        },
+        {
+          "title": "P135 9.1 连续状态空间应用示例",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=135",
+          "description": "Bilibili 分P：9.1 连续状态空间应用示例，时长约 7 分钟",
+          "type": "course",
+          "estimatedHours": 0.11
+        },
+        {
+          "title": "P136 9.2 月球着陆器",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=136",
+          "description": "Bilibili 分P：9.2 月球着陆器，时长约 6 分钟",
+          "type": "course",
+          "estimatedHours": 0.1
+        },
+        {
+          "title": "P137 9.3 学习状态值函数",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=137",
+          "description": "Bilibili 分P：9.3 学习状态值函数，时长约 17 分钟",
+          "type": "course",
+          "estimatedHours": 0.28
+        },
+        {
+          "title": "P138 9.4 算法优化-改进的神经网络结构",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=138",
+          "description": "Bilibili 分P：9.4 算法优化-改进的神经网络结构，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        },
+        {
+          "title": "P139 9.5 算法优化ϵ-贪婪策略",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=139",
+          "description": "Bilibili 分P：9.5 算法优化ϵ-贪婪策略，时长约 9 分钟",
+          "type": "course",
+          "estimatedHours": 0.15
+        },
+        {
+          "title": "P140 9.6 算法优化-小批量和软更新（可选）",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=140",
+          "description": "Bilibili 分P：9.6 算法优化-小批量和软更新（可选），时长约 12 分钟",
+          "type": "course",
+          "estimatedHours": 0.2
+        },
+        {
+          "title": "P141 9.7 强化学习的状态",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=141",
+          "description": "Bilibili 分P：9.7 强化学习的状态，时长约 3 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        },
+        {
+          "title": "P142 10.1 总结与感谢",
+          "url": "https://www.bilibili.com/video/BV19B4y1W76i?p=142",
+          "description": "Bilibili 分P：10.1 总结与感谢，时长约 4 分钟",
+          "type": "course",
+          "estimatedHours": 0.05
+        }
+      ]
     }
   ]
 }
