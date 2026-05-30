@@ -6,6 +6,7 @@ import { readFile } from "node:fs/promises"
 import path from "node:path"
 import { z } from "zod"
 import { DOMAIN_LEVELS, normalizeLevel } from "../src/lib/learning-domains"
+import { normalizeCollectionType } from "../src/lib/collection-types"
 
 const prisma = new PrismaClient()
 
@@ -13,7 +14,11 @@ const collectionItemSchema = z.object({
   title: z.string().trim().min(1),
   url: z.string().trim().url().optional().or(z.literal("")),
   description: z.string().trim().optional(),
-  type: z.string().trim().default("article"),
+  type: z
+    .string()
+    .trim()
+    .default("exercise")
+    .transform((value) => normalizeCollectionType(value)),
   estimatedHours: z.number().positive().optional(),
 })
 
@@ -21,6 +26,11 @@ const collectionSchema = z.object({
   title: z.string().trim().min(1),
   description: z.string().trim().optional(),
   topic: z.string().trim().default("other"),
+  type: z
+    .string()
+    .trim()
+    .default("exercise")
+    .transform((value) => normalizeCollectionType(value)),
   difficulty: z
     .string()
     .trim()
@@ -112,6 +122,7 @@ async function main() {
         title: collection.title,
         description: collection.description,
         topic: collection.topic,
+        type: collection.type,
         difficulty: collection.difficulty,
         isPublic: collection.isPublic,
         itemCount: collection.items.length,

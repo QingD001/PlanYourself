@@ -47,6 +47,7 @@ async function main() {
       title: collection.title,
       description: collection.description ?? undefined,
       topic: collection.topic,
+      type: collection.type,
       difficulty: collection.difficulty,
       isPublic: collection.isPublic,
       items: collection.items.map((item) => ({

@@ -5,6 +5,7 @@ import {
   canManageCollection,
   isAdmin,
 } from "@/lib/permissions"
+import { normalizeCollectionType } from "@/lib/collection-types"
 import { forbidden, handleRouteError, notFound, readJsonBody, unauthorized } from "@/lib/route-helpers"
 import { prisma } from "@/lib/prisma"
 
@@ -53,7 +54,7 @@ export async function POST(
         collectionId: id,
         title,
         url: body.url ? String(body.url).trim() : null,
-        type: body.type ? String(body.type).trim() : "article",
+        type: normalizeCollectionType(typeof body.type === "string" ? body.type : undefined),
         sortOrder: (maxSort?.sortOrder ?? -1) + 1,
       },
     })

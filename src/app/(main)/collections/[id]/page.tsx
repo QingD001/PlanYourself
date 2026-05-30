@@ -25,6 +25,7 @@ import {
   getLevelLabel,
   normalizeLevel,
 } from "@/lib/learning-domains"
+import { COLLECTION_TYPES, DEFAULT_COLLECTION_TYPE, getCollectionTypeLabel } from "@/lib/collection-types"
 import { fetchJson } from "@/lib/fetch-json"
 
 interface CollectionItem {
@@ -48,6 +49,7 @@ interface Collection {
   title: string
   description?: string | null
   topic: string
+  type: string
   difficulty: string
   isPublic: boolean
   isSubscribed: boolean
@@ -57,15 +59,6 @@ interface Collection {
   completedCount: number
   items: CollectionItem[]
 }
-
-const itemTypes = [
-  { value: "article", label: "文章" },
-  { value: "video", label: "视频" },
-  { value: "course", label: "课程" },
-  { value: "book", label: "书籍" },
-  { value: "project", label: "项目" },
-  { value: "exercise", label: "题目" },
-]
 
 export default function CollectionDetailPage({
   params,
@@ -80,6 +73,7 @@ export default function CollectionDetailPage({
     title: "",
     description: "",
     topic: "machine-learning",
+    type: DEFAULT_COLLECTION_TYPE as string,
     difficulty: "beginner",
     items: [] as DraftItem[],
   })
@@ -97,6 +91,7 @@ export default function CollectionDetailPage({
       title: collection.data.title,
       description: collection.data.description ?? "",
       topic: collection.data.topic,
+      type: collection.data.type ?? DEFAULT_COLLECTION_TYPE,
       difficulty: normalizeLevel(collection.data.difficulty),
       items: collection.data.items.map((item) => ({
         id: item.id,
@@ -203,7 +198,7 @@ export default function CollectionDetailPage({
                 className="w-full resize-none rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
                 placeholder="题单简介"
               />
-              <div className="grid gap-3 sm:grid-cols-2">
+              <div className="grid gap-3 sm:grid-cols-3">
                 <select
                   value={draft.topic}
                   onChange={(event) => setDraft((value) => ({ ...value, topic: event.target.value }))}
@@ -212,6 +207,17 @@ export default function CollectionDetailPage({
                   {LEARNING_DOMAINS.map((domain) => (
                     <option key={domain.key} value={domain.key}>
                       {domain.label}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  value={draft.type}
+                  onChange={(event) => setDraft((value) => ({ ...value, type: event.target.value }))}
+                  className="rounded-lg border border-slate-200 px-3 py-2 text-sm"
+                >
+                  {COLLECTION_TYPES.map((item) => (
+                    <option key={item.value} value={item.value}>
+                      {item.label}
                     </option>
                   ))}
                 </select>
@@ -233,6 +239,9 @@ export default function CollectionDetailPage({
               <div className="flex flex-wrap gap-2 text-xs">
                 <span className="rounded-full bg-blue-50 px-2 py-1 text-blue-700">
                   {getDomainLabel(collection.data.topic)}
+                </span>
+                <span className="rounded-full bg-slate-100 px-2 py-1 font-medium text-slate-700 ring-1 ring-slate-200">
+                  {getCollectionTypeLabel(collection.data.type)}
                 </span>
                 <span
                   className={`rounded-full px-2 py-1 font-medium ring-1 ${getLevelBadgeClass(
@@ -339,7 +348,7 @@ export default function CollectionDetailPage({
                   ...value,
                   items: [
                     ...value.items,
-                    { clientId: crypto.randomUUID(), title: "", url: "", type: "exercise" },
+                    { clientId: crypto.randomUUID(), title: "", url: "", type: DEFAULT_COLLECTION_TYPE },
                   ],
                 }))
               }
@@ -391,7 +400,7 @@ export default function CollectionDetailPage({
                   }
                   className="rounded-lg border border-slate-200 px-3 py-2 text-sm"
                 >
-                  {itemTypes.map((type) => (
+                  {COLLECTION_TYPES.map((type) => (
                     <option key={type.value} value={type.value}>
                       {type.label}
                     </option>

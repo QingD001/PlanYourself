@@ -7,6 +7,7 @@ import {
   isAdmin,
 } from "@/lib/permissions"
 import { normalizeLevel } from "@/lib/learning-domains"
+import { normalizeCollectionType } from "@/lib/collection-types"
 import { badRequest, handleRouteError, readJsonBody, unauthorized } from "@/lib/route-helpers"
 import { prisma } from "@/lib/prisma"
 
@@ -29,15 +30,20 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url)
     const topic = searchParams.get("topic")
     const difficulty = searchParams.get("difficulty")
+    const type = searchParams.get("type")
     const tab = searchParams.get("tab")
 
     const where: Record<string, unknown> = { isPublic: true }
     if (topic) where.topic = topic
     if (difficulty) where.difficulty = normalizeLevel(difficulty)
+    if (type) where.type = normalizeCollectionType(type)
 
     if (tab === "subscribed") {
       const subs = await prisma.collectionSubscription.findMany({
-        where: { userId },
+        where: {
+          userId,
+          collection: where,
+        },
         include: {
           collection: {
             include: {
@@ -125,6 +131,7 @@ export async function POST(request: Request) {
     const body = await readJsonBody(request)
     const title = String(body.title ?? "").trim()
     const topic = String(body.topic ?? "").trim()
+    const type = normalizeCollectionType(typeof body.type === "string" ? body.type : undefined)
     if (!title) return badRequest("题单标题不能为空")
     if (!topic) return badRequest("题单方向不能为空")
 
@@ -135,7 +142,7 @@ export async function POST(request: Request) {
         return {
           title: String(row.title ?? "").trim(),
           url: row.url ? String(row.url).trim() : null,
-          type: row.type ? String(row.type).trim() : "article",
+          type: normalizeCollectionType(row.type),
         }
       })
       .filter((item) => item.title)
@@ -153,6 +160,7 @@ export async function POST(request: Request) {
         title,
         description: body.description ? String(body.description).trim() : null,
         topic,
+        type,
         difficulty: normalizeLevel(typeof body.difficulty === "string" ? body.difficulty : undefined),
         itemCount: cleanItems.length,
         items: {

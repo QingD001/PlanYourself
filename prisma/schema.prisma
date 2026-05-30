@@ -102,6 +102,7 @@ model LearningCollection {
   description String?
   topic       String
   difficulty  String   @default("beginner")
+  type        String   @default("exercise")
   isPublic    Boolean  @default(true)
   itemCount   Int      @default(0)
   createdAt   DateTime @default(now())
@@ -114,6 +115,7 @@ model LearningCollection {
 
   @@index([topic])
   @@index([difficulty])
+  @@index([type])
 }
 
 model CollectionItem {
@@ -122,7 +124,7 @@ model CollectionItem {
   title          String
   url            String?
   description    String?
-  type           String   @default("article")
+  type           String   @default("exercise")
   sortOrder      Int      @default(0)
   estimatedHours Float?
   createdAt      DateTime @default(now())

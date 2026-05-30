@@ -37,7 +37,8 @@
           "type": "exercise",
           "estimatedHours": 10
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-搜索",
@@ -96,7 +97,8 @@
           "url": "https://www.luogu.com.cn/problem/P4205",
           "type": "exercise"
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "Kaggle 进阶级",
@@ -108,52 +110,53 @@
         {
           "title": "Santander Customer Transaction Prediction",
           "url": "https://www.kaggle.com/competitions/santander-customer-transaction-prediction",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 20
         },
         {
           "title": "Home Credit Default Risk",
           "url": "https://www.kaggle.com/competitions/home-credit-default-risk",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 35
         },
         {
           "title": "IEEE-CIS Fraud Detection",
           "url": "https://www.kaggle.com/competitions/ieee-fraud-detection",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 45
         },
         {
           "title": "Google QUEST Q&A Labeling",
           "url": "https://www.kaggle.com/competitions/google-quest-challenge",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 30
         },
         {
           "title": "Jigsaw Unintended Bias in Toxicity Classification",
           "url": "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 35
         },
         {
           "title": "H&M Personalized Fashion Recommendations",
           "url": "https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 50
         },
         {
           "title": "OTTO – Multi-Objective Recommender System",
           "url": "https://www.kaggle.com/competitions/otto-recommender-system",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 60
         },
         {
           "title": "Home Credit - Credit Risk Model Stability",
           "url": "https://www.kaggle.com/competitions/home-credit-credit-risk-model-stability",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 50
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "Kaggle 高级",
@@ -165,52 +168,53 @@
         {
           "title": "Optiver - Trading at the Close",
           "url": "https://www.kaggle.com/competitions/optiver-trading-at-the-close",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 70
         },
         {
           "title": "NeurIPS 2024 - Predict New Medicines with BELKA",
           "url": "https://www.kaggle.com/competitions/leash-BELKA",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 90
         },
         {
           "title": "RSNA Screening Mammography Breast Cancer Detection",
           "url": "https://www.kaggle.com/competitions/rsna-breast-cancer-detection",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 80
         },
         {
           "title": "HMS - Harmful Brain Activity Classification",
           "url": "https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 85
         },
         {
           "title": "HuBMAP - Hacking the Human Vasculature",
           "url": "https://www.kaggle.com/competitions/hubmap-hacking-the-human-vasculature",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 80
         },
         {
           "title": "Google Research - Identify Contrails to Reduce Global Warming",
           "url": "https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 75
         },
         {
           "title": "BirdCLEF 2024",
           "url": "https://www.kaggle.com/competitions/birdclef-2024",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 70
         },
         {
           "title": "Child Mind Institute - Detect Sleep States",
           "url": "https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 75
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "Kaggle 专家级",
@@ -222,52 +226,53 @@
         {
           "title": "Google AI Open Images - Object Detection Track",
           "url": "https://www.kaggle.com/competitions/google-ai-open-images-object-detection-track",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 100
         },
         {
           "title": "RSNA Intracranial Hemorrhage Detection",
           "url": "https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 100
         },
         {
           "title": "NFL Big Data Bowl 2026 - Prediction",
           "url": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 90
         },
         {
           "title": "Open Problems - Multimodal Single-Cell Integration",
           "url": "https://www.kaggle.com/competitions/open-problems-multimodal",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 100
         },
         {
           "title": "Google AI4Code – Understand Code in Python Notebooks",
           "url": "https://www.kaggle.com/competitions/AI4Code",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 80
         },
         {
           "title": "Learning Equality - Curriculum Recommendations",
           "url": "https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 90
         },
         {
           "title": "Google Research Football with Manchester City F.C.",
           "url": "https://www.kaggle.com/competitions/google-football",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 120
         },
         {
           "title": "Predicting Molecular Properties",
           "url": "https://www.kaggle.com/competitions/champs-scalar-coupling",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 100
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "Kaggle 大师级",
@@ -279,52 +284,53 @@
         {
           "title": "ARC Prize 2026 - ARC-AGI-3",
           "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 160
         },
         {
           "title": "Jane Street Real-Time Market Data Forecasting",
           "url": "https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 140
         },
         {
           "title": "NeurIPS - Open Polymer Prediction 2025",
           "url": "https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 130
         },
         {
           "title": "NeurIPS - Ariel Data Challenge 2025",
           "url": "https://www.kaggle.com/competitions/ariel-data-challenge-2025",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 130
         },
         {
           "title": "BYU - Locating Bacterial Flagellar Motors 2025",
           "url": "https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 120
         },
         {
           "title": "Image Matching Challenge 2025",
           "url": "https://www.kaggle.com/competitions/image-matching-challenge-2025",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 120
         },
         {
           "title": "LMSYS - Chatbot Arena Human Preference Predictions",
           "url": "https://www.kaggle.com/competitions/lmsys-chatbot-arena",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 110
         },
         {
           "title": "Eedi - Mining Misconceptions in Mathematics",
           "url": "https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics",
-          "type": "competition",
+          "type": "exercise",
           "estimatedHours": 110
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-动态规划",
@@ -336,286 +342,287 @@
         {
           "title": "数字三角形",
           "url": "https://www.luogu.com.cn/problem/P1216",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 1
         },
         {
           "title": "导弹拦截",
           "url": "https://www.luogu.com.cn/problem/P1020",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "合唱队形",
           "url": "https://www.luogu.com.cn/problem/P1091",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "守望者的逃离",
           "url": "https://www.luogu.com.cn/problem/P1095",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "采药",
           "url": "https://www.luogu.com.cn/problem/P1048",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 1
         },
         {
           "title": "开心的金明",
           "url": "https://www.luogu.com.cn/problem/P1060",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 1
         },
         {
           "title": "榨取kkksc03",
           "url": "https://www.luogu.com.cn/problem/P1855",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "货币系统",
           "url": "https://www.luogu.com.cn/problem/P5020",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[NOI1995] 石子合并",
           "url": "https://www.luogu.com.cn/problem/P1880",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[USACO16OPEN] 248",
           "url": "https://www.luogu.com.cn/problem/P3146",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "能量项链",
           "url": "https://www.luogu.com.cn/problem/P1063",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "矩阵取数游戏",
           "url": "https://www.luogu.com.cn/problem/P1005",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "没有上司的舞会",
           "url": "https://www.luogu.com.cn/problem/P1352",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "加分二叉树",
           "url": "https://www.luogu.com.cn/problem/P1040",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "最大子树和",
           "url": "https://www.luogu.com.cn/problem/P1122",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "有线电视网",
           "url": "https://www.luogu.com.cn/problem/P1273",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[NOI2001] 炮兵阵地",
           "url": "https://www.luogu.com.cn/problem/P2704",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO06NOV] Corn Fields",
           "url": "https://www.luogu.com.cn/problem/P1879",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SCOI2005] 互不侵犯",
           "url": "https://www.luogu.com.cn/problem/P1896",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO13NOV] No Change",
           "url": "https://www.luogu.com.cn/problem/P3092",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "跑路",
           "url": "https://www.luogu.com.cn/problem/P1613",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "开车旅行",
           "url": "https://www.luogu.com.cn/problem/P1081",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "保卫王国",
           "url": "https://www.luogu.com.cn/problem/P5024",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "动态dp",
           "url": "https://www.luogu.com.cn/problem/P4719",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "动态dp加强版",
           "url": "https://www.luogu.com.cn/problem/P4751",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SCOI2014] 方伯伯的玉米田",
           "url": "https://www.luogu.com.cn/problem/P3287",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[ZJOI2010] 基站选址",
           "url": "https://www.luogu.com.cn/problem/P2605",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "宝物筛选",
           "url": "https://www.luogu.com.cn/problem/P1776",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO13NOV] Pogo-Cow",
           "url": "https://www.luogu.com.cn/problem/P3089",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[POI2014] PTA-Little Bird",
           "url": "https://www.luogu.com.cn/problem/P3572",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[POI2011] TEM-Temperature",
           "url": "https://www.luogu.com.cn/problem/P3522",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO08MAR] Land Acquisition",
           "url": "https://www.luogu.com.cn/problem/P2900",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HNOI2008] 玩具装箱",
           "url": "https://www.luogu.com.cn/problem/P3195",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[APIO2010] 特别行动队",
           "url": "https://www.luogu.com.cn/problem/P3628",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[APIO2014] 序列分割",
           "url": "https://www.luogu.com.cn/problem/P3648",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[POI2011] Lightning Conductor",
           "url": "https://www.luogu.com.cn/problem/P3515",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[IOI2000] 邮局",
           "url": "https://www.luogu.com.cn/problem/P4767",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2009] 诗人小G",
           "url": "https://www.luogu.com.cn/problem/P1912",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2011] Noi嘉年华",
           "url": "https://www.luogu.com.cn/problem/P1973",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[ZJOI2010] 数字计数",
           "url": "https://www.luogu.com.cn/problem/P2602",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SCOI2013] 数数",
           "url": "https://www.luogu.com.cn/problem/P3281",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HAOI2010] 计数",
           "url": "https://www.luogu.com.cn/problem/P2518",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SCOI2009] windy数",
           "url": "https://www.luogu.com.cn/problem/P2657",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "插头dp",
           "url": "https://www.luogu.com.cn/problem/P5056",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[HNOI2004] 邮递员",
           "url": "https://www.luogu.com.cn/problem/P2289",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SCOI2012] 喵星人的入侵",
           "url": "https://www.luogu.com.cn/problem/P2337",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[XR-1] 俄罗斯方块",
           "url": "https://www.luogu.com.cn/problem/P5347",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-字符串",
@@ -627,184 +634,185 @@
         {
           "title": "字符串哈希",
           "url": "https://www.luogu.com.cn/problem/P3370",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "无论怎样神树大人都会删库跑路",
           "url": "https://www.luogu.com.cn/problem/P5270",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "系统设计",
           "url": "https://www.luogu.com.cn/problem/P5537",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "KMP字符串匹配",
           "url": "https://www.luogu.com.cn/problem/P3375",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[BOI2009] Radio Transmission",
           "url": "https://www.luogu.com.cn/problem/P4391",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[POI2006] OKR-Periods of Words",
           "url": "https://www.luogu.com.cn/problem/P3435",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO15FEB] Censoring (Silver)",
           "url": "https://www.luogu.com.cn/problem/P4824",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "manacher算法",
           "url": "https://www.luogu.com.cn/problem/P3805",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[国家集训队] 最长双回文串",
           "url": "https://www.luogu.com.cn/problem/P4555",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[国家集训队] 拉拉队排练",
           "url": "https://www.luogu.com.cn/problem/P1659",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[TJOI2010] 阅读理解",
           "url": "https://www.luogu.com.cn/problem/P3879",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[HNOI2004] L语言",
           "url": "https://www.luogu.com.cn/problem/P2292",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO08DEC] Secret Message",
           "url": "https://www.luogu.com.cn/problem/P2922",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO12DEC] First!",
           "url": "https://www.luogu.com.cn/problem/P3065",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "AC自动机（简单版）",
           "url": "https://www.luogu.com.cn/problem/P3808",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "AC自动机（加强版）",
           "url": "https://www.luogu.com.cn/problem/P3796",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "AC自动机（二次加强版）",
           "url": "https://www.luogu.com.cn/problem/P5357",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO15FEB] Censoring (Gold)",
           "url": "https://www.luogu.com.cn/problem/P3121",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "回文自动机（PAM）",
           "url": "https://www.luogu.com.cn/problem/P5496",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[APIO2014] 回文串",
           "url": "https://www.luogu.com.cn/problem/P3649",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SHOI2011] 双倍回文",
           "url": "https://www.luogu.com.cn/problem/P4287",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[CERC2014] Virus synthesis",
           "url": "https://www.luogu.com.cn/problem/P4762",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "后缀排序",
           "url": "https://www.luogu.com.cn/problem/P3809",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "树上后缀排序",
           "url": "https://www.luogu.com.cn/problem/P5353",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SCOI2012] 喵星球上的点名",
           "url": "https://www.luogu.com.cn/problem/P2336",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2008] Sandy的卡片",
           "url": "https://www.luogu.com.cn/problem/P2463",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "后缀自动机",
           "url": "https://www.luogu.com.cn/problem/P3804",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[APIO2014] 回文串",
           "url": "https://www.luogu.com.cn/problem/P3649",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[TJOI2015] 弦论",
           "url": "https://www.luogu.com.cn/problem/P3975",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[AHOI2013] 差异",
           "url": "https://www.luogu.com.cn/problem/P4248",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-数学",
@@ -816,502 +824,503 @@
         {
           "title": "格雷码",
           "url": "https://www.luogu.com.cn/problem/P5657",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[MtOI2019] 永夜的报应",
           "url": "https://www.luogu.com.cn/problem/P5514",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[XR-3] Namid[A]me",
           "url": "https://www.luogu.com.cn/problem/P5538",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[XR-3] Unknown Mother-Goose",
           "url": "https://www.luogu.com.cn/problem/P5539",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "Pollard-Rho算法",
           "url": "https://www.luogu.com.cn/problem/P4718",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "质因数分解",
           "url": "https://www.luogu.com.cn/problem/P1075",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "角色属性树",
           "url": "https://www.luogu.com.cn/problem/P2441",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[XR-3] 小道消息",
           "url": "https://www.luogu.com.cn/problem/P5535",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "快速 GCD",
           "url": "https://www.luogu.com.cn/problem/P5435",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[XR-2] 缘分",
           "url": "https://www.luogu.com.cn/problem/P5436",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "最大公约数和最小公倍数问题",
           "url": "https://www.luogu.com.cn/problem/P1029",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "又是毕业季II",
           "url": "https://www.luogu.com.cn/problem/P1414",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SDOI2008] 仪仗队",
           "url": "https://www.luogu.com.cn/problem/P2158",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "GCD",
           "url": "https://www.luogu.com.cn/problem/P2568",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "GCD SUM",
           "url": "https://www.luogu.com.cn/problem/P2398",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "上帝与集合的正确用法",
           "url": "https://www.luogu.com.cn/problem/P4139",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "裴蜀定理",
           "url": "https://www.luogu.com.cn/problem/P4549",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "有理数取余",
           "url": "https://www.luogu.com.cn/problem/P2613",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "乘法逆元",
           "url": "https://www.luogu.com.cn/problem/P3811",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "乘法逆元2",
           "url": "https://www.luogu.com.cn/problem/P5431",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "扩展中国剩余定理（EXCRT）",
           "url": "https://www.luogu.com.cn/problem/P4777",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[TJOI2009] 猜数字",
           "url": "https://www.luogu.com.cn/problem/P3868",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SDOI2010] 古代猪文",
           "url": "https://www.luogu.com.cn/problem/P2480",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2018] 屠龙勇士",
           "url": "https://www.luogu.com.cn/problem/P4774",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "exBSGS",
           "url": "https://www.luogu.com.cn/problem/P4195",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "二次剩余",
           "url": "https://www.luogu.com.cn/problem/P5491",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SDOI2013] 随机数生成器",
           "url": "https://www.luogu.com.cn/problem/P3306",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SDOI2011] 计算器",
           "url": "https://www.luogu.com.cn/problem/P2485",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "nim游戏",
           "url": "https://www.luogu.com.cn/problem/P2197",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "取数游戏II",
           "url": "https://www.luogu.com.cn/problem/P1288",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "欧几里德的游戏",
           "url": "https://www.luogu.com.cn/problem/P1290",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "取火柴游戏",
           "url": "https://www.luogu.com.cn/problem/P1247",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "红包发红包",
           "url": "https://www.luogu.com.cn/problem/P5104",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "换教室",
           "url": "https://www.luogu.com.cn/problem/P1850",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SHOI2012] 随机树",
           "url": "https://www.luogu.com.cn/problem/P3830",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[CTSC2018] 假面",
           "url": "https://www.luogu.com.cn/problem/P4564",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "卢卡斯定理",
           "url": "https://www.luogu.com.cn/problem/P3807",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "组合数问题",
           "url": "https://www.luogu.com.cn/problem/P2822",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[yLOI2019] 青原樱",
           "url": "https://www.luogu.com.cn/problem/P5520",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[HNOI2008] 越狱",
           "url": "https://www.luogu.com.cn/problem/P3197",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "第二类斯特林数·行",
           "url": "https://www.luogu.com.cn/problem/P5395",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "第二类斯特林数·列",
           "url": "https://www.luogu.com.cn/problem/P5396",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "第一类斯特林数·行",
           "url": "https://www.luogu.com.cn/problem/P5408",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "第一类斯特林数·列",
           "url": "https://www.luogu.com.cn/problem/P5409",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "Emiya 家今天的饭",
           "url": "https://www.luogu.com.cn/problem/P5664",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HAOI2008] 硬币购物",
           "url": "https://www.luogu.com.cn/problem/P1450",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HNOI2011] 卡农",
           "url": "https://www.luogu.com.cn/problem/P3214",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[JLOI2016] 成绩比较",
           "url": "https://www.luogu.com.cn/problem/P3270",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "矩阵快速幂",
           "url": "https://www.luogu.com.cn/problem/P3390",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "矩阵加速（数列）",
           "url": "https://www.luogu.com.cn/problem/P1939",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "矩阵求逆",
           "url": "https://www.luogu.com.cn/problem/P4783",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "斐波那契数列",
           "url": "https://www.luogu.com.cn/problem/P1962",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "高斯消元法",
           "url": "https://www.luogu.com.cn/problem/P3389",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "付公主的函数",
           "url": "https://www.luogu.com.cn/problem/P4387",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SDOI2010] 外星千足虫",
           "url": "https://www.luogu.com.cn/problem/P2447",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[JSOI2008] 球形空间产生器",
           "url": "https://www.luogu.com.cn/problem/P4035",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "线性基",
           "url": "https://www.luogu.com.cn/problem/P3812",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[TJOI2008] 彩灯",
           "url": "https://www.luogu.com.cn/problem/P3857",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[BJWC2011] 元素",
           "url": "https://www.luogu.com.cn/problem/P4570",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[CQOI2013] 新Nim游戏",
           "url": "https://www.luogu.com.cn/problem/P4301",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "A*B Problem升级版（FFT快速傅里叶）",
           "url": "https://www.luogu.com.cn/problem/P1919",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "多项式乘法（FFT）",
           "url": "https://www.luogu.com.cn/problem/P3803",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "多项式求逆",
           "url": "https://www.luogu.com.cn/problem/P4238",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "任意模数NTT",
           "url": "https://www.luogu.com.cn/problem/P4245",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[CQOI2015] 选数",
           "url": "https://www.luogu.com.cn/problem/P3172",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HAOI2011] Problem b",
           "url": "https://www.luogu.com.cn/problem/P2522",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[POI2007] ZAP-Queries",
           "url": "https://www.luogu.com.cn/problem/P3455",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SDOI2015] 约数个数和",
           "url": "https://www.luogu.com.cn/problem/P3327",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "线性筛素数",
           "url": "https://www.luogu.com.cn/problem/P3383",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "杜教筛（Sum）",
           "url": "https://www.luogu.com.cn/problem/P4213",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "Min_25筛",
           "url": "https://www.luogu.com.cn/problem/P5325",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "A % B Problem",
           "url": "https://www.luogu.com.cn/problem/P1865",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[NOI2008] 志愿者招募",
           "url": "https://www.luogu.com.cn/problem/P3980",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "无意识之外的捉迷藏",
           "url": "https://www.luogu.com.cn/problem/P4232",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "三分法",
           "url": "https://www.luogu.com.cn/problem/P3382",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "函数",
           "url": "https://www.luogu.com.cn/problem/P1883",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "自适应辛普森法1",
           "url": "https://www.luogu.com.cn/problem/P4525",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "自适应辛普森法2",
           "url": "https://www.luogu.com.cn/problem/P4526",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SDOI2017] 龙与地下城",
           "url": "https://www.luogu.com.cn/problem/P3779",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "Polya定理",
           "url": "https://www.luogu.com.cn/problem/P4980",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HNOI2008] Cards",
           "url": "https://www.luogu.com.cn/problem/P1446",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[AHOI2002] 黑白瓷砖",
           "url": "https://www.luogu.com.cn/problem/P2561",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SHOI2006] 有色图",
           "url": "https://www.luogu.com.cn/problem/P4128",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-图论",
@@ -1323,292 +1332,293 @@
         {
           "title": "信息传递",
           "url": "https://www.luogu.com.cn/problem/P2661",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "[USACO08DEC] Trick or Treat on the Farm",
           "url": "https://www.luogu.com.cn/problem/P2921",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "最短路计数",
           "url": "https://www.luogu.com.cn/problem/P1144",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "通往奥格瑞玛的道路",
           "url": "https://www.luogu.com.cn/problem/P1462",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "Cow Tours",
           "url": "https://www.luogu.com.cn/problem/P1522",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "速度限制",
           "url": "https://www.luogu.com.cn/problem/P1266",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "遍历问题",
           "url": "https://www.luogu.com.cn/problem/P1229",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "对称二叉树",
           "url": "https://www.luogu.com.cn/problem/P5018",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "HXY造公园",
           "url": "https://www.luogu.com.cn/problem/P2195",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[APIO2010] 巡逻",
           "url": "https://www.luogu.com.cn/problem/P3629",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "核心城市",
           "url": "https://www.luogu.com.cn/problem/P5536",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "树网的核",
           "url": "https://www.luogu.com.cn/problem/P1099",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "斐波那契",
           "url": "https://www.luogu.com.cn/problem/P3938",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[AHOI2008] 紧急集合 / 聚会",
           "url": "https://www.luogu.com.cn/problem/P4281",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO07DEC] Building Roads",
           "url": "https://www.luogu.com.cn/problem/P2872",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "无线通讯网",
           "url": "https://www.luogu.com.cn/problem/P1991",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "货车运输",
           "url": "https://www.luogu.com.cn/problem/P1967",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[JSOI2010] 部落划分",
           "url": "https://www.luogu.com.cn/problem/P4047",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "杂务",
           "url": "https://www.luogu.com.cn/problem/P1113",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "车站分级",
           "url": "https://www.luogu.com.cn/problem/P1983",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "神经网络",
           "url": "https://www.luogu.com.cn/problem/P1038",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SCOI2011] 糖果",
           "url": "https://www.luogu.com.cn/problem/P3275",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[HNOI2005] 狡猾的商人",
           "url": "https://www.luogu.com.cn/problem/P2294",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "倍杀测量者",
           "url": "https://www.luogu.com.cn/problem/P4926",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "赛车游戏",
           "url": "https://www.luogu.com.cn/problem/P5590",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HAOI2006] 受欢迎的牛",
           "url": "https://www.luogu.com.cn/problem/P2341",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO06JAN] The Cow Prom",
           "url": "https://www.luogu.com.cn/problem/P2863",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO5.3] Network of Schools",
           "url": "https://www.luogu.com.cn/problem/P2746",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[国家集训队] 稳定婚姻",
           "url": "https://www.luogu.com.cn/problem/P1407",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[ZJOI2007] 矩阵游戏",
           "url": "https://www.luogu.com.cn/problem/P1129",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "运动员最佳匹配问题",
           "url": "https://www.luogu.com.cn/problem/P1559",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[HEOI2012] 朋友圈",
           "url": "https://www.luogu.com.cn/problem/P2423",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HEOI2016/TJOI2016] 游戏",
           "url": "https://www.luogu.com.cn/problem/P2825",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[JSOI2010] 满汉全席",
           "url": "https://www.luogu.com.cn/problem/P4171",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[NOI2017] 游戏",
           "url": "https://www.luogu.com.cn/problem/P3825",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[JSOI2019] 精准预测",
           "url": "https://www.luogu.com.cn/problem/P5332",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[国家集训队] 聪聪可可",
           "url": "https://www.luogu.com.cn/problem/P2634",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "树上游戏",
           "url": "https://www.luogu.com.cn/problem/P2664",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[BJOI2017] 树的难题",
           "url": "https://www.luogu.com.cn/problem/P3714",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[IOI2011] Race",
           "url": "https://www.luogu.com.cn/problem/P4149",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2011] 消耗战",
           "url": "https://www.luogu.com.cn/problem/P2495",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[HNOI2014] 世界树",
           "url": "https://www.luogu.com.cn/problem/P3233",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2019] 世界地图",
           "url": "https://www.luogu.com.cn/problem/P5360",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "永恒",
           "url": "https://www.luogu.com.cn/problem/P5439",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[HEOI2015] 小Z的房间",
           "url": "https://www.luogu.com.cn/problem/P4111",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[FJOI2007] 轮状病毒",
           "url": "https://www.luogu.com.cn/problem/P2144",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SDOI2014] 重建",
           "url": "https://www.luogu.com.cn/problem/P3317",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[JSOI2008] 最小生成树计数",
           "url": "https://www.luogu.com.cn/problem/P4208",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-网络流",
@@ -1620,148 +1630,149 @@
         {
           "title": "飞行员配对方案问题",
           "url": "https://www.luogu.com.cn/problem/P2756",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "孤岛营救问题",
           "url": "https://www.luogu.com.cn/problem/P4011",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "汽车加油行驶问题",
           "url": "https://www.luogu.com.cn/problem/P4009",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "软件补丁问题",
           "url": "https://www.luogu.com.cn/problem/P2761",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "星际转移问题",
           "url": "https://www.luogu.com.cn/problem/P2754",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "太空飞行计划问题",
           "url": "https://www.luogu.com.cn/problem/P2762",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "最小路径覆盖问题",
           "url": "https://www.luogu.com.cn/problem/P2764",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "魔术球问题",
           "url": "https://www.luogu.com.cn/problem/P2765",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "圆桌问题",
           "url": "https://www.luogu.com.cn/problem/P3254",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "试题库问题",
           "url": "https://www.luogu.com.cn/problem/P2763",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "分配问题",
           "url": "https://www.luogu.com.cn/problem/P4014",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "方格取数问题",
           "url": "https://www.luogu.com.cn/problem/P2774",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "骑士共存问题",
           "url": "https://www.luogu.com.cn/problem/P3355",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "负载平衡问题",
           "url": "https://www.luogu.com.cn/problem/P4016",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "运输问题",
           "url": "https://www.luogu.com.cn/problem/P4015",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "最长不下降子序列问题",
           "url": "https://www.luogu.com.cn/problem/P2766",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "航空路线问题",
           "url": "https://www.luogu.com.cn/problem/P2770",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "数字梯形问题",
           "url": "https://www.luogu.com.cn/problem/P4013",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "最长k可重区间集问题",
           "url": "https://www.luogu.com.cn/problem/P3358",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "最长k可重线段集问题",
           "url": "https://www.luogu.com.cn/problem/P3357",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "深海机器人问题",
           "url": "https://www.luogu.com.cn/problem/P4012",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "火星探险问题",
           "url": "https://www.luogu.com.cn/problem/P3356",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "餐巾计划问题",
           "url": "https://www.luogu.com.cn/problem/P1251",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "机器人路径规划问题",
           "url": "https://www.luogu.com.cn/problem/P2775",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-并查集",
@@ -1773,64 +1784,65 @@
         {
           "title": "[JSOI2008] 星球大战",
           "url": "https://www.luogu.com.cn/problem/P1197",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "关押罪犯",
           "url": "https://www.luogu.com.cn/problem/P1525",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[NOI2001] 食物链",
           "url": "https://www.luogu.com.cn/problem/P2024",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2002] 银河英雄传说",
           "url": "https://www.luogu.com.cn/problem/P1196",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "奶酪",
           "url": "https://www.luogu.com.cn/problem/P3958",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "程序自动分析",
           "url": "https://www.luogu.com.cn/problem/P1955",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "团伙",
           "url": "https://www.luogu.com.cn/problem/P1892",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "海滩防御",
           "url": "https://www.luogu.com.cn/problem/P1783",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO04OPEN] Cube Stacking",
           "url": "https://www.luogu.com.cn/problem/P5092",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "集合",
           "url": "https://www.luogu.com.cn/problem/P1621",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-树状数组",
@@ -1842,64 +1854,65 @@
         {
           "title": "逆序对",
           "url": "https://www.luogu.com.cn/problem/P1908",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "火柴排队",
           "url": "https://www.luogu.com.cn/problem/P1966",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SDOI2009] HH的项链",
           "url": "https://www.luogu.com.cn/problem/P1972",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[HEOI2012] 采花",
           "url": "https://www.luogu.com.cn/problem/P4113",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO17JAN] Promotion Counting",
           "url": "https://www.luogu.com.cn/problem/P3605",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO04OPEN] MooFest G",
           "url": "https://www.luogu.com.cn/problem/P2345",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "三元上升子序列",
           "url": "https://www.luogu.com.cn/problem/P1637",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SHOI2007] 园丁的烦恼",
           "url": "https://www.luogu.com.cn/problem/P2163",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[CQOI2010] 内部白点",
           "url": "https://www.luogu.com.cn/problem/P5816",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[POI2005] AUT-The Bus",
           "url": "https://www.luogu.com.cn/problem/P3431",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-线段树",
@@ -1911,124 +1924,125 @@
         {
           "title": "[JSOI2008] 最大数",
           "url": "https://www.luogu.com.cn/problem/P1198",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "上帝造题的七分钟 2",
           "url": "https://www.luogu.com.cn/problem/P4145",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "小白逛公园",
           "url": "https://www.luogu.com.cn/problem/P4513",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO08FEB] Hotel",
           "url": "https://www.luogu.com.cn/problem/P2894",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SCOI2010] 序列操作",
           "url": "https://www.luogu.com.cn/problem/P2572",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[HEOI2016/TJOI2016] 排序",
           "url": "https://www.luogu.com.cn/problem/P2824",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[SCOI2007] 降雨量",
           "url": "https://www.luogu.com.cn/problem/P2471",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2016] 区间",
           "url": "https://www.luogu.com.cn/problem/P1712",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO12OPEN] Bookshelf G",
           "url": "https://www.luogu.com.cn/problem/P1848",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "天际线",
           "url": "https://www.luogu.com.cn/problem/P1904",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO5.5] 矩形周长 Picture",
           "url": "https://www.luogu.com.cn/problem/P1856",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "窗口的星星",
           "url": "https://www.luogu.com.cn/problem/P1502",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[HNOI2012] 永无乡",
           "url": "https://www.luogu.com.cn/problem/P3224",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "雨天的尾巴",
           "url": "https://www.luogu.com.cn/problem/P4556",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[BJOI2014] 大融合",
           "url": "https://www.luogu.com.cn/problem/P4219",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SCOI2016] 美味",
           "url": "https://www.luogu.com.cn/problem/P3293",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[JLOI2013] 删除物品",
           "url": "https://www.luogu.com.cn/problem/P3250",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[ZJOI2017] 树状数组",
           "url": "https://www.luogu.com.cn/problem/P3688",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "区间加区间 sin 和",
           "url": "https://www.luogu.com.cn/problem/P6327",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[Ynoi2012] NOIP2015 洋溢着希望",
           "url": "https://www.luogu.com.cn/problem/P5524",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-平衡树与有序集合",
@@ -2040,64 +2054,65 @@
         {
           "title": "营业额统计",
           "url": "https://www.luogu.com.cn/problem/P2234",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "宠物收养场",
           "url": "https://www.luogu.com.cn/problem/P2286",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "郁闷的出纳员",
           "url": "https://www.luogu.com.cn/problem/P1486",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[ZJOI2006] 书架",
           "url": "https://www.luogu.com.cn/problem/P2596",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[ZJOI2007] 报表统计",
           "url": "https://www.luogu.com.cn/problem/P1110",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[NOI2005] 维护数列",
           "url": "https://www.luogu.com.cn/problem/P2042",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[NOIP2017] 列队",
           "url": "https://www.luogu.com.cn/problem/P3960",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "文本编辑器",
           "url": "https://www.luogu.com.cn/problem/P4008",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[HNOI2002] 营业额统计",
           "url": "https://www.luogu.com.cn/problem/P2234",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "普通平衡树加强版",
           "url": "https://www.luogu.com.cn/problem/P6136",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-堆与优先队列",
@@ -2109,64 +2124,65 @@
         {
           "title": "合并果子",
           "url": "https://www.luogu.com.cn/problem/P1090",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "黑匣子",
           "url": "https://www.luogu.com.cn/problem/P1801",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "最小函数值",
           "url": "https://www.luogu.com.cn/problem/P2085",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "操作系统",
           "url": "https://www.luogu.com.cn/problem/P2278",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "种树",
           "url": "https://www.luogu.com.cn/problem/P1484",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[国家集训队] 种树",
           "url": "https://www.luogu.com.cn/problem/P1792",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "数据备份",
           "url": "https://www.luogu.com.cn/problem/P3620",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[USACO12FEB] Cow Coupons G",
           "url": "https://www.luogu.com.cn/problem/P3045",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[USACO09OPEN] Work Scheduling G",
           "url": "https://www.luogu.com.cn/problem/P2949",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "舞蹈课",
           "url": "https://www.luogu.com.cn/problem/P1878",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-单调栈与单调队列",
@@ -2178,64 +2194,65 @@
         {
           "title": "切蛋糕",
           "url": "https://www.luogu.com.cn/problem/P1714",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "烽火传递",
           "url": "https://www.luogu.com.cn/problem/P1725",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "理想的正方形",
           "url": "https://www.luogu.com.cn/problem/P2216",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "Flowerpot S",
           "url": "https://www.luogu.com.cn/problem/P2698",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "好消息，坏消息",
           "url": "https://www.luogu.com.cn/problem/P2629",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[USACO13NOV] Pogo-Cow",
           "url": "https://www.luogu.com.cn/problem/P3089",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[POI2014] PTA-Little Bird",
           "url": "https://www.luogu.com.cn/problem/P3572",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[POI2011] TEM-Temperature",
           "url": "https://www.luogu.com.cn/problem/P3522",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "最大数",
           "url": "https://www.luogu.com.cn/problem/P2032",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         },
         {
           "title": "求 m 区间内的最小值",
           "url": "https://www.luogu.com.cn/problem/P1440",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 2
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-分块与莫队",
@@ -2247,64 +2264,65 @@
         {
           "title": "小B的询问",
           "url": "https://www.luogu.com.cn/problem/P2709",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "小Z的袜子",
           "url": "https://www.luogu.com.cn/problem/P1494",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "大爷的字符串题",
           "url": "https://www.luogu.com.cn/problem/P3709",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[国家集训队] 数颜色",
           "url": "https://www.luogu.com.cn/problem/P1903",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2009] HH的项链",
           "url": "https://www.luogu.com.cn/problem/P1972",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "糖果公园",
           "url": "https://www.luogu.com.cn/problem/P4074",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[CQOI2018] 异或序列",
           "url": "https://www.luogu.com.cn/problem/P4462",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "教主的魔法",
           "url": "https://www.luogu.com.cn/problem/P2801",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "弹飞绵羊",
           "url": "https://www.luogu.com.cn/problem/P3203",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "蒲公英",
           "url": "https://www.luogu.com.cn/problem/P4168",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-可持久化数据结构",
@@ -2316,64 +2334,65 @@
         {
           "title": "Count on a tree",
           "url": "https://www.luogu.com.cn/problem/P2633",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[POI2014] KUR-Couriers",
           "url": "https://www.luogu.com.cn/problem/P3567",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "Rmq Problem / mex",
           "url": "https://www.luogu.com.cn/problem/P4137",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "森林",
           "url": "https://www.luogu.com.cn/problem/P3302",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "Dynamic Rankings",
           "url": "https://www.luogu.com.cn/problem/P2617",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[CQOI2015] 任务查询系统",
           "url": "https://www.luogu.com.cn/problem/P3168",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SCOI2016] 美味",
           "url": "https://www.luogu.com.cn/problem/P3293",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[国家集训队] middle",
           "url": "https://www.luogu.com.cn/problem/P2839",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "雨天的尾巴",
           "url": "https://www.luogu.com.cn/problem/P4556",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "可持久化并查集加强版",
           "url": "https://www.luogu.com.cn/problem/P3402",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "数据结构-树上数据结构",
@@ -2385,64 +2404,65 @@
         {
           "title": "树的统计",
           "url": "https://www.luogu.com.cn/problem/P2590",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "Qtree1",
           "url": "https://www.luogu.com.cn/problem/P4114",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "松鼠的新家",
           "url": "https://www.luogu.com.cn/problem/P3258",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SDOI2011] 染色",
           "url": "https://www.luogu.com.cn/problem/P2486",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "旅游",
           "url": "https://www.luogu.com.cn/problem/P1505",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2014] 旅行",
           "url": "https://www.luogu.com.cn/problem/P3313",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "软件包管理器",
           "url": "https://www.luogu.com.cn/problem/P2146",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[NOI2014] 魔法森林",
           "url": "https://www.luogu.com.cn/problem/P2387",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[NOI2014] 购票",
           "url": "https://www.luogu.com.cn/problem/P2305",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "Tree II",
           "url": "https://www.luogu.com.cn/problem/P1501",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         }
-      ]
+      ],
+      "type": "exercise"
     },
     {
       "title": "算法-计算几何",
@@ -2454,82 +2474,83 @@
         {
           "title": "[HNOI2004] 最佳包裹",
           "url": "https://www.luogu.com.cn/problem/P2287",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[SHOI2012] 信用卡凸包",
           "url": "https://www.luogu.com.cn/problem/P3829",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 4
         },
         {
           "title": "[Ynoi2018] 末日时在做什么?有没有空?可以来拯救吗?",
           "url": "https://www.luogu.com.cn/problem/P4680",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[JSOI2018] 战争",
           "url": "https://www.luogu.com.cn/problem/P4557",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[CTS2019] 田野",
           "url": "https://www.luogu.com.cn/problem/P5403",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "Beauty Contest",
           "url": "https://www.luogu.com.cn/problem/P1452",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 3
         },
         {
           "title": "[HNOI2007] 最小矩形覆盖",
           "url": "https://www.luogu.com.cn/problem/P3187",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[JLOI2013] 赛车",
           "url": "https://www.luogu.com.cn/problem/P3256",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[ZJOI2008] 瞭望塔",
           "url": "https://www.luogu.com.cn/problem/P2600",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[CQOI2006] 凸多边形",
           "url": "https://www.luogu.com.cn/problem/P4196",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 5
         },
         {
           "title": "[SDOI2013] 逃考",
           "url": "https://www.luogu.com.cn/problem/P3297",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[SCOI2015] 小凸想跑步",
           "url": "https://www.luogu.com.cn/problem/P4250",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 6
         },
         {
           "title": "[ZJOI2019] 浙江省选",
           "url": "https://www.luogu.com.cn/problem/P5328",
-          "type": "problem",
+          "type": "exercise",
           "estimatedHours": 7
         }
-      ]
+      ],
+      "type": "exercise"
     }
   ]
 }

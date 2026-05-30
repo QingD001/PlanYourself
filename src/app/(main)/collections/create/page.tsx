@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useMutation, useQuery } from "@tanstack/react-query"
 import { Loader2, Plus, Trash2 } from "lucide-react"
 import { DOMAIN_LEVELS, LEARNING_DOMAINS, LEVEL_LABELS } from "@/lib/learning-domains"
+import { COLLECTION_TYPES, DEFAULT_COLLECTION_TYPE } from "@/lib/collection-types"
 import { fetchJson } from "@/lib/fetch-json"
 
 interface DraftItem {
@@ -29,16 +30,15 @@ export default function CreateCollectionPage() {
   const [title, setTitle] = useState("")
   const [description, setDescription] = useState("")
   const [topic, setTopic] = useState("machine-learning")
+  const [type, setType] = useState<string>(DEFAULT_COLLECTION_TYPE)
   const [difficulty, setDifficulty] = useState("beginner")
   const [items, setItems] = useState<DraftItem[]>([
-    { id: "1", title: "", url: "", type: "article" },
+    { id: "1", title: "", url: "", type: DEFAULT_COLLECTION_TYPE },
   ])
 
   const limits = useQuery<CollectionLimits>({
     queryKey: ["collection-limits"],
-    queryFn: async () => {
-      return fetchJson<CollectionLimits>("/api/collections/limits")
-    },
+    queryFn: async () => fetchJson<CollectionLimits>("/api/collections/limits"),
   })
 
   const create = useMutation({
@@ -50,6 +50,7 @@ export default function CreateCollectionPage() {
           title,
           description,
           topic,
+          type,
           difficulty,
           items: items.filter((item) => item.title.trim()),
         }),
@@ -96,7 +97,7 @@ export default function CreateCollectionPage() {
             value={title}
             onChange={(event) => setTitle(event.target.value)}
             className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
-            placeholder="例如：机器学习入门路线"
+            placeholder="例如：算法基础练习路线"
           />
         </div>
         <div>
@@ -109,9 +110,9 @@ export default function CreateCollectionPage() {
             placeholder="适合谁、学完能获得什么"
           />
         </div>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-3">
           <div>
-            <label className="mb-2 block text-sm font-medium text-slate-800">主题</label>
+            <label className="mb-2 block text-sm font-medium text-slate-800">知识领域</label>
             <select
               value={topic}
               onChange={(event) => setTopic(event.target.value)}
@@ -120,6 +121,20 @@ export default function CreateCollectionPage() {
               {topics.map((value) => (
                 <option key={value.key} value={value.key}>
                   {value.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="mb-2 block text-sm font-medium text-slate-800">类型</label>
+            <select
+              value={type}
+              onChange={(event) => setType(event.target.value)}
+              className="w-full rounded-lg border border-slate-200 px-3 py-2 text-sm"
+            >
+              {COLLECTION_TYPES.map((item) => (
+                <option key={item.value} value={item.value}>
+                  {item.label}
                 </option>
               ))}
             </select>
@@ -148,7 +163,7 @@ export default function CreateCollectionPage() {
             onClick={() =>
               setItems((value) => [
                 ...value,
-                { id: crypto.randomUUID(), title: "", url: "", type: "article" },
+                { id: crypto.randomUUID(), title: "", url: "", type: DEFAULT_COLLECTION_TYPE },
               ])
             }
             disabled={!canAddItem}
@@ -184,12 +199,11 @@ export default function CreateCollectionPage() {
                 }
                 className="rounded-lg border border-slate-200 px-3 py-2 text-sm"
               >
-                <option value="article">文章</option>
-                <option value="video">视频</option>
-                <option value="course">课程</option>
-                <option value="book">书籍</option>
-                <option value="project">项目</option>
-                <option value="exercise">题目</option>
+                {COLLECTION_TYPES.map((value) => (
+                  <option key={value.value} value={value.value}>
+                    {value.label}
+                  </option>
+                ))}
               </select>
               <button
                 onClick={() => setItems((value) => value.filter((row) => row.id !== item.id))}

@@ -11,6 +11,7 @@
     "db:seed": "npx tsx prisma/seed.ts",
     "clear:collections": "tsx scripts/clear-collections.ts",
     "set:demo-account": "tsx scripts/set-demo-account.ts",
+    "set:collections-exercise": "tsx scripts/set-collections-exercise.ts",
     "export:collections": "tsx scripts/export-collections.ts",
     "import:collections": "tsx scripts/import-collections.ts",
     "postinstall": "prisma generate"

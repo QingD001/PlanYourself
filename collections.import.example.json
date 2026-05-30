@@ -8,22 +8,23 @@
     "items": [
       {
         "title": "线性代数基础",
-        "type": "article",
+        "type": "exercise",
         "url": "https://www.khanacademy.org/math/linear-algebra",
         "estimatedHours": 3
       },
       {
         "title": "NumPy 快速入门",
-        "type": "article",
+        "type": "exercise",
         "url": "https://numpy.org/doc/stable/user/quickstart.html",
         "estimatedHours": 2
       },
       {
         "title": "Scikit-learn 官方教程",
-        "type": "course",
+        "type": "exercise",
         "url": "https://scikit-learn.org/stable/tutorial/index.html",
         "estimatedHours": 4
       }
-    ]
+    ],
+    "type": "exercise"
   }
 ]

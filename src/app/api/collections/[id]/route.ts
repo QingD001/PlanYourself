@@ -6,6 +6,7 @@ import {
   isAdmin,
 } from "@/lib/permissions"
 import { normalizeLevel } from "@/lib/learning-domains"
+import { normalizeCollectionType } from "@/lib/collection-types"
 import {
   badRequest,
   forbidden,
@@ -98,7 +99,7 @@ export async function PATCH(request: Request, { params }: RouteContext) {
         id: item.id,
         title: String(item.title ?? "").trim(),
         url: item.url ? String(item.url).trim() : null,
-        type: item.type ? String(item.type).trim() : "article",
+        type: normalizeCollectionType(item.type),
       }))
       .filter((item) => item.title)
 
@@ -111,6 +112,7 @@ export async function PATCH(request: Request, { params }: RouteContext) {
 
     const title = String(body.title ?? collection.title).trim()
     const topic = String(body.topic ?? collection.topic).trim()
+    const type = normalizeCollectionType(typeof body.type === "string" ? body.type : collection.type)
     if (!title) return badRequest("题单标题不能为空")
     if (!topic) return badRequest("题单方向不能为空")
 
@@ -124,6 +126,7 @@ export async function PATCH(request: Request, { params }: RouteContext) {
         title,
         description: body.description ? String(body.description).trim() : null,
         topic,
+        type,
         difficulty: normalizeLevel(typeof body.difficulty === "string" ? body.difficulty : collection.difficulty),
         isPublic: typeof body.isPublic === "boolean" ? body.isPublic : collection.isPublic,
       },
