@@ -47,3 +47,6 @@ dev.db
 dev.db-*
 *.db
 *.db-journal
+
+.vercel
+.env*

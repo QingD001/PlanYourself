@@ -1,0 +1,1379 @@
+﻿{
+    "collections":  [
+    {
+                            "title":  "C/C++ 就业基础课",
+                            "description":  "Bilibili 课程《求知讲堂C语言/C++视频104天完整版 学完可就业》。C 语言/C++ 零基础到就业向课程，按视频分P拆分为课程条目。已按收藏/点赞筛选：收藏 113883，点赞 38399，播放 1499815；总时长约 39.47 小时。",
+                            "topic":  "算法与数据结构",
+                            "type":  "course",
+                            "difficulty":  "beginner",
+                            "isPublic":  true,
+                            "items":  [
+                                          {
+                                              "title":  "P001 day1 000_,C++在线课程大纲的说明（以后根据情况做适当的调整）",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=1",
+                                              "description":  "Bilibili 分P：day1 000_,C++在线课程大纲的说明（以后根据情况做适当的调整），时长约 30 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.51
+                                          },
+                                          {
+                                              "title":  "P002 day1 000_大纲的补充说明",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=2",
+                                              "description":  "Bilibili 分P：day1 000_大纲的补充说明，时长约 1 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.02
+                                          },
+                                          {
+                                              "title":  "P003 day1 001_C语言概念和作用及学习C语言的方法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=3",
+                                              "description":  "Bilibili 分P：day1 001_C语言概念和作用及学习C语言的方法，时长约 35 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.58
+                                          },
+                                          {
+                                              "title":  "P004 day1 002_VS2019与VSCode的下载与安装",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=4",
+                                              "description":  "Bilibili 分P：day1 002_VS2019与VSCode的下载与安装，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P005 day1 003_第一个程序HelloWorld",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=5",
+                                              "description":  "Bilibili 分P：day1 003_第一个程序HelloWorld，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P006 day1 004_数据类型、运算符与表达式",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=6",
+                                              "description":  "Bilibili 分P：day1 004_数据类型、运算符与表达式，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.19
+                                          },
+                                          {
+                                              "title":  "P007 day1 005_数据类型实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=7",
+                                              "description":  "Bilibili 分P：day1 005_数据类型实例，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.27
+                                          },
+                                          {
+                                              "title":  "P008 day1 006_数据类型实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=8",
+                                              "description":  "Bilibili 分P：day1 006_数据类型实例，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.26
+                                          },
+                                          {
+                                              "title":  "P009 day1 007_浮点数与字符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=9",
+                                              "description":  "Bilibili 分P：day1 007_浮点数与字符，时长约 17 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.28
+                                          },
+                                          {
+                                              "title":  "P010 day1 008_常量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=10",
+                                              "description":  "Bilibili 分P：day1 008_常量，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P011 day1 009_运算符与表达式实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=11",
+                                              "description":  "Bilibili 分P：day1 009_运算符与表达式实例，时长约 23 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.39
+                                          },
+                                          {
+                                              "title":  "P012 day2 001_顺序程序设计基础理论知识",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=12",
+                                              "description":  "Bilibili 分P：day2 001_顺序程序设计基础理论知识，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P013 day2 002_顺序程序设计案例之海伦公式一元二次方程",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=13",
+                                              "description":  "Bilibili 分P：day2 002_顺序程序设计案例之海伦公式一元二次方程，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.41
+                                          },
+                                          {
+                                              "title":  "P014 day2 003_循环控制",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=14",
+                                              "description":  "Bilibili 分P：day2 003_循环控制，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P015 day2 004_循环控制if语句for语句while语句break语句",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=15",
+                                              "description":  "Bilibili 分P：day2 004_循环控制if语句for语句while语句break语句，时长约 17 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.28
+                                          },
+                                          {
+                                              "title":  "P016 day2 005_循环控制continue语句",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=16",
+                                              "description":  "Bilibili 分P：day2 005_循环控制continue语句，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P017 day2 006_数组",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=17",
+                                              "description":  "Bilibili 分P：day2 006_数组，时长约 28 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.46
+                                          },
+                                          {
+                                              "title":  "P018 day2 007_数组",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=18",
+                                              "description":  "Bilibili 分P：day2 007_数组，时长约 32 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.54
+                                          },
+                                          {
+                                              "title":  "P019 day3 001_函数及其相关的概念与理论知识",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=19",
+                                              "description":  "Bilibili 分P：day3 001_函数及其相关的概念与理论知识，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.4
+                                          },
+                                          {
+                                              "title":  "P020 day3 002_函数的基本定义与调用函数的声明",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=20",
+                                              "description":  "Bilibili 分P：day3 002_函数的基本定义与调用函数的声明，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.3
+                                          },
+                                          {
+                                              "title":  "P021 day3 003_函数返回值的接收与调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=21",
+                                              "description":  "Bilibili 分P：day3 003_函数返回值的接收与调试，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P022 day3 004_数组作为参数与调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=22",
+                                              "description":  "Bilibili 分P：day3 004_数组作为参数与调试，时长约 23 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.39
+                                          },
+                                          {
+                                              "title":  "P023 day3 005_全局变量外部变量与局部变量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=23",
+                                              "description":  "Bilibili 分P：day3 005_全局变量外部变量与局部变量，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P024 day3 006_static与register变量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=24",
+                                              "description":  "Bilibili 分P：day3 006_static与register变量，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P025 day3 007_预处理器命令",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=25",
+                                              "description":  "Bilibili 分P：day3 007_预处理器命令，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P026 day3 008_预处理器命令实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=26",
+                                              "description":  "Bilibili 分P：day3 008_预处理器命令实例，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.26
+                                          },
+                                          {
+                                              "title":  "P027 day4 001_指针的概念与类型通俗易懂详解",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=27",
+                                              "description":  "Bilibili 分P：day4 001_指针的概念与类型通俗易懂详解，时长约 47 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.79
+                                          },
+                                          {
+                                              "title":  "P028 day4 002_指针通俗易懂的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=28",
+                                              "description":  "Bilibili 分P：day4 002_指针通俗易懂的实例，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.4
+                                          },
+                                          {
+                                              "title":  "P029 day4 003_指针的大小比较",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=29",
+                                              "description":  "Bilibili 分P：day4 003_指针的大小比较，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.07
+                                          },
+                                          {
+                                              "title":  "P030 day4 004_指针数组的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=30",
+                                              "description":  "Bilibili 分P：day4 004_指针数组的实例，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P031 day4 005_指针数组的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=31",
+                                              "description":  "Bilibili 分P：day4 005_指针数组的实例，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P032 day4 006_指针的指针",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=32",
+                                              "description":  "Bilibili 分P：day4 006_指针的指针，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P033 day4 007_指针传参",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=33",
+                                              "description":  "Bilibili 分P：day4 007_指针传参，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P034 day4 008_函数返回指针变量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=34",
+                                              "description":  "Bilibili 分P：day4 008_函数返回指针变量，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P035 day4 009_函数指针与回调指针",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=35",
+                                              "description":  "Bilibili 分P：day4 009_函数指针与回调指针，时长约 25 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.42
+                                          },
+                                          {
+                                              "title":  "P036 day5 001_结构体枚举变量动态内存分配基础知识",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=36",
+                                              "description":  "Bilibili 分P：day5 001_结构体枚举变量动态内存分配基础知识，时长约 26 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.43
+                                          },
+                                          {
+                                              "title":  "P037 day5 002_结构体实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=37",
+                                              "description":  "Bilibili 分P：day5 002_结构体实例，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.31
+                                          },
+                                          {
+                                              "title":  "P038 day5 003_结构体指针的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=38",
+                                              "description":  "Bilibili 分P：day5 003_结构体指针的实例，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P039 day5 004_结构体指针形参",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=39",
+                                              "description":  "Bilibili 分P：day5 004_结构体指针形参，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P040 day5 005_联合体实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=40",
+                                              "description":  "Bilibili 分P：day5 005_联合体实例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P041 day5 006_联合体与结构体一起使用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=41",
+                                              "description":  "Bilibili 分P：day5 006_联合体与结构体一起使用，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P042 day5 007_位域的计算",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=42",
+                                              "description":  "Bilibili 分P：day5 007_位域的计算，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P043 day5 008_typedef",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=43",
+                                              "description":  "Bilibili 分P：day5 008_typedef，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P044 day5 009_枚举",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=44",
+                                              "description":  "Bilibili 分P：day5 009_枚举，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P045 day5 010_动态内存分配",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=45",
+                                              "description":  "Bilibili 分P：day5 010_动态内存分配，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P046 day5 011_位运算的基础概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=46",
+                                              "description":  "Bilibili 分P：day5 011_位运算的基础概念，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P047 day5 012_位运算实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=47",
+                                              "description":  "Bilibili 分P：day5 012_位运算实例，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P048 day6 001_文件基础概念梳理",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=48",
+                                              "description":  "Bilibili 分P：day6 001_文件基础概念梳理，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.36
+                                          },
+                                          {
+                                              "title":  "P049 day6 002_FILE指针的基础用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=49",
+                                              "description":  "Bilibili 分P：day6 002_FILE指针的基础用法，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.36
+                                          },
+                                          {
+                                              "title":  "P050 day6 003_FILE指针ferror用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=50",
+                                              "description":  "Bilibili 分P：day6 003_FILE指针ferror用法，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P051 day6 004_FILE指针fgets用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=51",
+                                              "description":  "Bilibili 分P：day6 004_FILE指针fgets用法，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P052 day6 005_FILE指针freadfwrite用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=52",
+                                              "description":  "Bilibili 分P：day6 005_FILE指针freadfwrite用法，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P053 day6 006_FILE指针fseek用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=53",
+                                              "description":  "Bilibili 分P：day6 006_FILE指针fseek用法，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P054 day7 001_内存四区与函数调用模型",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=54",
+                                              "description":  "Bilibili 分P：day7 001_内存四区与函数调用模型，时长约 21 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.35
+                                          },
+                                          {
+                                              "title":  "P055 day7 002_memcpy函数的用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=55",
+                                              "description":  "Bilibili 分P：day7 002_memcpy函数的用法，时长约 17 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.28
+                                          },
+                                          {
+                                              "title":  "P056 day7 003_memcpy函数的用法及帮助技巧",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=56",
+                                              "description":  "Bilibili 分P：day7 003_memcpy函数的用法及帮助技巧，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P057 day7 004_memmove函数的用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=57",
+                                              "description":  "Bilibili 分P：day7 004_memmove函数的用法，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P058 day7 005_memset函数的用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=58",
+                                              "description":  "Bilibili 分P：day7 005_memset函数的用法，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P059 day8 001_递归的概念及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=59",
+                                              "description":  "Bilibili 分P：day8 001_递归的概念及实例，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P060 day8 002_递归实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=60",
+                                              "description":  "Bilibili 分P：day8 002_递归实例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P061 day8 003_浅拷贝深拷贝概念快速简单深入的理解",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=61",
+                                              "description":  "Bilibili 分P：day8 003_浅拷贝深拷贝概念快速简单深入的理解，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P062 day8 004_浅拷贝实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=62",
+                                              "description":  "Bilibili 分P：day8 004_浅拷贝实例及调试，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.31
+                                          },
+                                          {
+                                              "title":  "P063 day8 005_深拷贝实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=63",
+                                              "description":  "Bilibili 分P：day8 005_深拷贝实例及调试，时长约 26 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.43
+                                          },
+                                          {
+                                              "title":  "P064 day8 006_深拷贝与浅拷贝图解",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=64",
+                                              "description":  "Bilibili 分P：day8 006_深拷贝与浅拷贝图解，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P065 day8 007_接口的封装与设计",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=65",
+                                              "description":  "Bilibili 分P：day8 007_接口的封装与设计，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.41
+                                          },
+                                          {
+                                              "title":  "P066 day9 001_数据结构的理论知识",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=66",
+                                              "description":  "Bilibili 分P：day9 001_数据结构的理论知识，时长约 28 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.46
+                                          },
+                                          {
+                                              "title":  "P067 day9 002_数组的概念与优点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=67",
+                                              "description":  "Bilibili 分P：day9 002_数组的概念与优点，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P068 day9 003_链表的概念与单链表的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=68",
+                                              "description":  "Bilibili 分P：day9 003_链表的概念与单链表的概念，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P069 day9 004_双链表与循环单链表的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=69",
+                                              "description":  "Bilibili 分P：day9 004_双链表与循环单链表的概念，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P070 day9 005_循环双链表的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=70",
+                                              "description":  "Bilibili 分P：day9 005_循环双链表的概念，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P071 day9 006_表头插入一个节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=71",
+                                              "description":  "Bilibili 分P：day9 006_表头插入一个节点，时长约 36 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.6
+                                          },
+                                          {
+                                              "title":  "P072 day9 007_完善主函数表头插入一个节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=72",
+                                              "description":  "Bilibili 分P：day9 007_完善主函数表头插入一个节点，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.04
+                                          },
+                                          {
+                                              "title":  "P073 day10 001_单链表尾插入节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=73",
+                                              "description":  "Bilibili 分P：day10 001_单链表尾插入节点，时长约 26 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.43
+                                          },
+                                          {
+                                              "title":  "P074 day10 002_表头表尾插入节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=74",
+                                              "description":  "Bilibili 分P：day10 002_表头表尾插入节点，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.32
+                                          },
+                                          {
+                                              "title":  "P075 day10 003_表头表尾插入节点补充",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=75",
+                                              "description":  "Bilibili 分P：day10 003_表头表尾插入节点补充，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P076 day10 004_单链表删除第一个节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=76",
+                                              "description":  "Bilibili 分P：day10 004_单链表删除第一个节点，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P077 day10 005_单链表删除最后一个节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=77",
+                                              "description":  "Bilibili 分P：day10 005_单链表删除最后一个节点，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P078 day10 006_单链表删除最后一个节点补充",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=78",
+                                              "description":  "Bilibili 分P：day10 006_单链表删除最后一个节点补充，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.06
+                                          },
+                                          {
+                                              "title":  "P079 day10 007_单链表删除任意节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=79",
+                                              "description":  "Bilibili 分P：day10 007_单链表删除任意节点，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P080 day10 008_单链表删除任意节点补充测试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=80",
+                                              "description":  "Bilibili 分P：day10 008_单链表删除任意节点补充测试，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P081 day11 001_单链表的遍历",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=81",
+                                              "description":  "Bilibili 分P：day11 001_单链表的遍历，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P082 day11 002_单链表的遍历函数的测试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=82",
+                                              "description":  "Bilibili 分P：day11 002_单链表的遍历函数的测试，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.04
+                                          },
+                                          {
+                                              "title":  "P083 day11 003_单链表的查找函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=83",
+                                              "description":  "Bilibili 分P：day11 003_单链表的查找函数，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P084 day11 004_单链表的查找函数测试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=84",
+                                              "description":  "Bilibili 分P：day11 004_单链表的查找函数测试，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.04
+                                          },
+                                          {
+                                              "title":  "P085 day11 005_融合所有函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=85",
+                                              "description":  "Bilibili 分P：day11 005_融合所有函数，时长约 30 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.5
+                                          },
+                                          {
+                                              "title":  "P086 day11 006_融合所有函数补充",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=86",
+                                              "description":  "Bilibili 分P：day11 006_融合所有函数补充，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P087 day12 001_双链表的节点及插入第一个节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=87",
+                                              "description":  "Bilibili 分P：day12 001_双链表的节点及插入第一个节点，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.26
+                                          },
+                                          {
+                                              "title":  "P088 day12 002_双链表的节点及插入第一个节点补充与完善",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=88",
+                                              "description":  "Bilibili 分P：day12 002_双链表的节点及插入第一个节点补充与完善，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P089 day12 003_双链表末尾插入节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=89",
+                                              "description":  "Bilibili 分P：day12 003_双链表末尾插入节点，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P090 day12 004_双链表末尾插入节点补充测试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=90",
+                                              "description":  "Bilibili 分P：day12 004_双链表末尾插入节点补充测试，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.04
+                                          },
+                                          {
+                                              "title":  "P091 day12 005_双链表随机插入节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=91",
+                                              "description":  "Bilibili 分P：day12 005_双链表随机插入节点，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P092 day12 006_双链表随机插入节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=92",
+                                              "description":  "Bilibili 分P：day12 006_双链表随机插入节点，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P093 day12 007_双链表删除第一节点",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=93",
+                                              "description":  "Bilibili 分P：day12 007_双链表删除第一节点，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P094 day12 008_双链表删除第一节点补充测试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=94",
+                                              "description":  "Bilibili 分P：day12 008_双链表删除第一节点补充测试，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P095 day13 001_C++的概念及历史及第一个程序",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=95",
+                                              "description":  "Bilibili 分P：day13 001_C++的概念及历史及第一个程序，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.31
+                                          },
+                                          {
+                                              "title":  "P096 day13 002_main函数的变体",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=96",
+                                              "description":  "Bilibili 分P：day13 002_main函数的变体，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P097 day13 003_Linux上的第一个程序（了解）",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=97",
+                                              "description":  "Bilibili 分P：day13 003_Linux上的第一个程序（了解），时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.07
+                                          },
+                                          {
+                                              "title":  "P098 day13 004_关键字",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=98",
+                                              "description":  "Bilibili 分P：day13 004_关键字，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.19
+                                          },
+                                          {
+                                              "title":  "P099 day13 005_标识符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=99",
+                                              "description":  "Bilibili 分P：day13 005_标识符，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P100 day13 006_标识符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=100",
+                                              "description":  "Bilibili 分P：day13 006_标识符，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P101 day13 007_数据类型bool, int, char等",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=101",
+                                              "description":  "Bilibili 分P：day13 007_数据类型bool, int, char等，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P102 day13 008_数据类型float, double, long double等",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=102",
+                                              "description":  "Bilibili 分P：day13 008_数据类型float, double, long double等，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.07
+                                          },
+                                          {
+                                              "title":  "P103 day13 009_修饰符unsigned long",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=103",
+                                              "description":  "Bilibili 分P：day13 009_修饰符unsigned long，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P104 day13 010_修饰符unsigned与signed修饰char",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=104",
+                                              "description":  "Bilibili 分P：day13 010_修饰符unsigned与signed修饰char，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.06
+                                          },
+                                          {
+                                              "title":  "P105 day13 011_修饰符unsigned与signed修饰char补充",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=105",
+                                              "description":  "Bilibili 分P：day13 011_修饰符unsigned与signed修饰char补充，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P106 day13 012_数值的范围",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=106",
+                                              "description":  "Bilibili 分P：day13 012_数值的范围，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.06
+                                          },
+                                          {
+                                              "title":  "P107 day13 016_转义字符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=107",
+                                              "description":  "Bilibili 分P：day13 016_转义字符，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.07
+                                          },
+                                          {
+                                              "title":  "P108 day13 014_数值的内存分布补充说明",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=108",
+                                              "description":  "Bilibili 分P：day13 014_数值的内存分布补充说明，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P109 day13 015_常量与转义字符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=109",
+                                              "description":  "Bilibili 分P：day13 015_常量与转义字符，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P110 day13 016_转义字符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=110",
+                                              "description":  "Bilibili 分P：day13 016_转义字符，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P111 day13 017_float与int常量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=111",
+                                              "description":  "Bilibili 分P：day13 017_float与int常量，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.19
+                                          },
+                                          {
+                                              "title":  "P112 day13 018_变量的定义与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=112",
+                                              "description":  "Bilibili 分P：day13 018_变量的定义与使用，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.21
+                                          },
+                                          {
+                                              "title":  "P113 day13 019_自增与自减",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=113",
+                                              "description":  "Bilibili 分P：day13 019_自增与自减，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.29
+                                          },
+                                          {
+                                              "title":  "P114 day13 020_逻辑运算符",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=114",
+                                              "description":  "Bilibili 分P：day13 020_逻辑运算符，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P115 day13 021_关系与逻辑运算符实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=115",
+                                              "description":  "Bilibili 分P：day13 021_关系与逻辑运算符实例，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P116 day13 022_位运算符实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=116",
+                                              "description":  "Bilibili 分P：day13 022_位运算符实例，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P117 day13 023_赋值运算符实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=117",
+                                              "description":  "Bilibili 分P：day13 023_赋值运算符实例，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P118 day13 024_自动转换与强制转换",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=118",
+                                              "description":  "Bilibili 分P：day13 024_自动转换与强制转换，时长约 23 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.38
+                                          },
+                                          {
+                                              "title":  "P119 day14 001_static_cast类型转换",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=119",
+                                              "description":  "Bilibili 分P：day14 001_static_cast类型转换，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P120 day14 002_dynamic_cast类型转换",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=120",
+                                              "description":  "Bilibili 分P：day14 002_dynamic_cast类型转换，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.27
+                                          },
+                                          {
+                                              "title":  "P121 day14 003_dynamic_cast类型转换实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=121",
+                                              "description":  "Bilibili 分P：day14 003_dynamic_cast类型转换实例，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P122 day14 004_const_cast类型转换实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=122",
+                                              "description":  "Bilibili 分P：day14 004_const_cast类型转换实例，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P123 day14 005_const_cast类型转换实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=123",
+                                              "description":  "Bilibili 分P：day14 005_const_cast类型转换实例，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P124 day14 006_reinterpret_cast类型转换实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=124",
+                                              "description":  "Bilibili 分P：day14 006_reinterpret_cast类型转换实例，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P125 day14 007_switch语句",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=125",
+                                              "description":  "Bilibili 分P：day14 007_switch语句，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P126 day14 008_switch语句案例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=126",
+                                              "description":  "Bilibili 分P：day14 008_switch语句案例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P127 day14 009_for语句案例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=127",
+                                              "description":  "Bilibili 分P：day14 009_for语句案例，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P128 day14 010_for语句案例辨析",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=128",
+                                              "description":  "Bilibili 分P：day14 010_for语句案例辨析，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P129 day14 011_for语句案例打印三角形",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=129",
+                                              "description":  "Bilibili 分P：day14 011_for语句案例打印三角形，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.3
+                                          },
+                                          {
+                                              "title":  "P130 day14 012_C++11的for循环",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=130",
+                                              "description":  "Bilibili 分P：day14 012_C++11的for循环，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P131 day14 013_while循环及案例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=131",
+                                              "description":  "Bilibili 分P：day14 013_while循环及案例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P132 day14 014_while循环及案例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=132",
+                                              "description":  "Bilibili 分P：day14 014_while循环及案例，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P133 day14 015_do...while",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=133",
+                                              "description":  "Bilibili 分P：day14 015_do...while，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.19
+                                          },
+                                          {
+                                              "title":  "P134 day14 016_do...while",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=134",
+                                              "description":  "Bilibili 分P：day14 016_do...while，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P135 day14 017_do...while与while语句的区别",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=135",
+                                              "description":  "Bilibili 分P：day14 017_do...while与while语句的区别，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P136 day14 019_return语句break语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=136",
+                                              "description":  "Bilibili 分P：day14 019_return语句break语句实例及调试，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P137 day14 020_return语句break语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=137",
+                                              "description":  "Bilibili 分P：day14 020_return语句break语句实例及调试，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P138 day14 021_continue语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=138",
+                                              "description":  "Bilibili 分P：day14 021_continue语句实例及调试，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P139 day14 022_continue语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=139",
+                                              "description":  "Bilibili 分P：day14 022_continue语句实例及调试，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P140 day14 021_goto语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=140",
+                                              "description":  "Bilibili 分P：day14 021_goto语句实例及调试，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P141 day14 022_goto语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=141",
+                                              "description":  "Bilibili 分P：day14 022_goto语句实例及调试，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P142 day14 023_goto语句实例及调试",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=142",
+                                              "description":  "Bilibili 分P：day14 023_goto语句实例及调试，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P143 day15 001_数组的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=143",
+                                              "description":  "Bilibili 分P：day15 001_数组的概念，时长约 17 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.28
+                                          },
+                                          {
+                                              "title":  "P144 day15 002_数组的初始化",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=144",
+                                              "description":  "Bilibili 分P：day15 002_数组的初始化，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P145 day15 003_多维数组的概念及初始化",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=145",
+                                              "description":  "Bilibili 分P：day15 003_多维数组的概念及初始化，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P146 day15 004_字符数组的概念及初始化",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=146",
+                                              "description":  "Bilibili 分P：day15 004_字符数组的概念及初始化，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P147 day15 005_指针的概念及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=147",
+                                              "description":  "Bilibili 分P：day15 005_指针的概念及实例，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P148 day15 006_指针的实例函数指针",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=148",
+                                              "description":  "Bilibili 分P：day15 006_指针的实例函数指针，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P149 day15 007_指针的运算",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=149",
+                                              "description":  "Bilibili 分P：day15 007_指针的运算，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P150 day15 008_指针的运算",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=150",
+                                              "description":  "Bilibili 分P：day15 008_指针的运算，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.24
+                                          },
+                                          {
+                                              "title":  "P151 day15 009_多维数级的指针变量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=151",
+                                              "description":  "Bilibili 分P：day15 009_多维数级的指针变量，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P152 day15 010_指向多维数组的指针变量",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=152",
+                                              "description":  "Bilibili 分P：day15 010_指向多维数组的指针变量，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P153 day15 011_const指针",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=153",
+                                              "description":  "Bilibili 分P：day15 011_const指针，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.31
+                                          },
+                                          {
+                                              "title":  "P154 day15 012_const指针",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=154",
+                                              "description":  "Bilibili 分P：day15 012_const指针，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P155 day15 013_引用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=155",
+                                              "description":  "Bilibili 分P：day15 013_引用，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P156 day15 014_函数的定义声明及调用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=156",
+                                              "description":  "Bilibili 分P：day15 014_函数的定义声明及调用，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P157 day15 015_函数的参数的使用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=157",
+                                              "description":  "Bilibili 分P：day15 015_函数的参数的使用，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.32
+                                          },
+                                          {
+                                              "title":  "P158 day16 001_标准库函数的使用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=158",
+                                              "description":  "Bilibili 分P：day16 001_标准库函数的使用，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P159 day16 002_标准库函数的使用srand日期等",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=159",
+                                              "description":  "Bilibili 分P：day16 002_标准库函数的使用srand日期等，时长约 26 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.43
+                                          },
+                                          {
+                                              "title":  "P160 day16 003_标准库函数字符串函数及最值",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=160",
+                                              "description":  "Bilibili 分P：day16 003_标准库函数字符串函数及最值，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P161 day16 004_函数的重载与内联函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=161",
+                                              "description":  "Bilibili 分P：day16 004_函数的重载与内联函数，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P162 day16 005_函数指针与指针函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=162",
+                                              "description":  "Bilibili 分P：day16 005_函数指针与指针函数，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P163 day16 006_全局作用域extern",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=163",
+                                              "description":  "Bilibili 分P：day16 006_全局作用域extern，时长约 25 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.41
+                                          },
+                                          {
+                                              "title":  "P164 day16 007_文件作用域extern",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=164",
+                                              "description":  "Bilibili 分P：day16 007_文件作用域extern，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P165 day16 008_函数作用域extern",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=165",
+                                              "description":  "Bilibili 分P：day16 008_函数作用域extern，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P166 day17 001_结构体概念及用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=166",
+                                              "description":  "Bilibili 分P：day17 001_结构体概念及用法，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P167 day17 002_结构体指针与参数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=167",
+                                              "description":  "Bilibili 分P：day17 002_结构体指针与参数，时长约 17 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.29
+                                          },
+                                          {
+                                              "title":  "P168 day17 003_结构体字节对齐",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=168",
+                                              "description":  "Bilibili 分P：day17 003_结构体字节对齐，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P169 day17 004_progmaPack",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=169",
+                                              "description":  "Bilibili 分P：day17 004_progmaPack，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P170 day17 005_联合体概念及定义",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=170",
+                                              "description":  "Bilibili 分P：day17 005_联合体概念及定义，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P171 day17 006_联合体实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=171",
+                                              "description":  "Bilibili 分P：day17 006_联合体实例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P172 day18 001_枚举的概念及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=172",
+                                              "description":  "Bilibili 分P：day18 001_枚举的概念及实例，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P173 day18 002_typedef及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=173",
+                                              "description":  "Bilibili 分P：day18 002_typedef及实例，时长约 4 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.07
+                                          },
+                                          {
+                                              "title":  "P174 day18 003_new与delete",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=174",
+                                              "description":  "Bilibili 分P：day18 003_new与delete，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P175 day18 004_面向对象编程的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=175",
+                                              "description":  "Bilibili 分P：day18 004_面向对象编程的概念，时长约 26 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.43
+                                          },
+                                          {
+                                              "title":  "P176 day18 005_类和对象的概念",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=176",
+                                              "description":  "Bilibili 分P：day18 005_类和对象的概念，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P177 day18 006_类的定义注意事项",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=177",
+                                              "description":  "Bilibili 分P：day18 006_类的定义注意事项，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P178 day19 001_类的定义与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=178",
+                                              "description":  "Bilibili 分P：day19 001_类的定义与使用，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P179 day19 002_类的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=179",
+                                              "description":  "Bilibili 分P：day19 002_类的实例，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P180 day19 003_this的基本用法",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=180",
+                                              "description":  "Bilibili 分P：day19 003_this的基本用法，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P181 day19 004_构造函数的概念与实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=181",
+                                              "description":  "Bilibili 分P：day19 004_构造函数的概念与实例，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.3
+                                          },
+                                          {
+                                              "title":  "P182 day19 005_构造函数与析构函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=182",
+                                              "description":  "Bilibili 分P：day19 005_构造函数与析构函数，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P183 day19 006_拷贝构造函数概念及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=183",
+                                              "description":  "Bilibili 分P：day19 006_拷贝构造函数概念及实例，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P184 day20 001_内联函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=184",
+                                              "description":  "Bilibili 分P：day20 001_内联函数，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P185 day20 002_类的静态成员及静态函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=185",
+                                              "description":  "Bilibili 分P：day20 002_类的静态成员及静态函数，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P186 day20 003_类的静态成员及静态函数",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=186",
+                                              "description":  "Bilibili 分P：day20 003_类的静态成员及静态函数，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P187 day20 004_常量函数成员",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=187",
+                                              "description":  "Bilibili 分P：day20 004_常量函数成员，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P188 day20 005_不要迷信编译器",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=188",
+                                              "description":  "Bilibili 分P：day20 005_不要迷信编译器，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P189 day20 006_友元类与友元函数及实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=189",
+                                              "description":  "Bilibili 分P：day20 006_友元类与友元函数及实例，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P190 day20 007_友元类实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=190",
+                                              "description":  "Bilibili 分P：day20 007_友元类实例，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.19
+                                          },
+                                          {
+                                              "title":  "P191 day20 008_运算符的重载的概念及定义",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=191",
+                                              "description":  "Bilibili 分P：day20 008_运算符的重载的概念及定义，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P192 day20 009_运算符实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=192",
+                                              "description":  "Bilibili 分P：day20 009_运算符实例，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.33
+                                          },
+                                          {
+                                              "title":  "P193 day20 010_继承与多态的概念与定义",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=193",
+                                              "description":  "Bilibili 分P：day20 010_继承与多态的概念与定义，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P194 day20 011_继承与多态的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=194",
+                                              "description":  "Bilibili 分P：day20 011_继承与多态的实例，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P195 day20 012_子类构造函数的实例",
+                                              "url":  "https://www.bilibili.com/video/BV1fZ4y1F7Vt?p=195",
+                                              "description":  "Bilibili 分P：day20 012_子类构造函数的实例，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.26
+                                          }
+                                      ]
+                        }
+                    ]
+}

@@ -1,0 +1,715 @@
+﻿{
+    "collections":  [
+                        {
+                            "title":  "Python 零基础语法基础课（B站）",
+                            "description":  "Bilibili 课程《【全600集】B站最全最细自学Python全套教程，2025最新版，包含所有干货！零基础从入门到精通，学这一套就够了！》，按视频分P拆分为课程条目；适合 Python 零基础入门，覆盖环境配置、基础语法和入门练习。",
+                            "topic":  "programming",
+                            "type":  "course",
+                            "difficulty":  "beginner",
+                            "isPublic":  true,
+                            "items":  [
+                                          {
+                                              "title":  "P001 【先导篇】Python从0~1的学习指南",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=1",
+                                              "description":  "Bilibili 分P：【先导篇】Python从0~1的学习指南，时长约 2 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.03
+                                          },
+                                          {
+                                              "title":  "P002 【语法基础】python解释器安装",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=2",
+                                              "description":  "Bilibili 分P：【语法基础】python解释器安装，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.4
+                                          },
+                                          {
+                                              "title":  "P003 【语法基础】pycharm安装和设置",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=3",
+                                              "description":  "Bilibili 分P：【语法基础】pycharm安装和设置，时长约 29 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.48
+                                          },
+                                          {
+                                              "title":  "P004 【语法基础】编写第一个代码",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=4",
+                                              "description":  "Bilibili 分P：【语法基础】编写第一个代码，时长约 28 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.47
+                                          },
+                                          {
+                                              "title":  "P005 【语法基础】注释与输出函数",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=5",
+                                              "description":  "Bilibili 分P：【语法基础】注释与输出函数，时长约 33 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.55
+                                          },
+                                          {
+                                              "title":  "P006 【语法基础】变量的基本概念与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=6",
+                                              "description":  "Bilibili 分P：【语法基础】变量的基本概念与使用，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P007 【语法基础】数据类型",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=7",
+                                              "description":  "Bilibili 分P：【语法基础】数据类型，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P008 【语法基础】格式化输出",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=8",
+                                              "description":  "Bilibili 分P：【语法基础】格式化输出，时长约 21 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P009 【语法基础】输入函数input",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=9",
+                                              "description":  "Bilibili 分P：【语法基础】输入函数input，时长约 21 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.35
+                                          },
+                                          {
+                                              "title":  "P010 【语法基础】算术运算符和赋值运算符",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=10",
+                                              "description":  "Bilibili 分P：【语法基础】算术运算符和赋值运算符，时长约 25 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.41
+                                          },
+                                          {
+                                              "title":  "P011 【语法基础】比较运算符与逻辑运算符",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=11",
+                                              "description":  "Bilibili 分P：【语法基础】比较运算符与逻辑运算符，时长约 39 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.65
+                                          },
+                                          {
+                                              "title":  "P012 【语法基础】if单分支和双分支",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=12",
+                                              "description":  "Bilibili 分P：【语法基础】if单分支和双分支，时长约 31 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.52
+                                          },
+                                          {
+                                              "title":  "P013 【语法基础】if多分支和if嵌套",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=13",
+                                              "description":  "Bilibili 分P：【语法基础】if多分支和if嵌套，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P014 【语法基础】while循环与循环嵌套",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=14",
+                                              "description":  "Bilibili 分P：【语法基础】while循环与循环嵌套，时长约 36 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.6
+                                          },
+                                          {
+                                              "title":  "P015 【语法基础】for循环与循环嵌套以及制表符",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=15",
+                                              "description":  "Bilibili 分P：【语法基础】for循环与循环嵌套以及制表符，时长约 40 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.67
+                                          },
+                                          {
+                                              "title":  "P016 【语法基础】字符串编码方式与编码解码函数",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=16",
+                                              "description":  "Bilibili 分P：【语法基础】字符串编码方式与编码解码函数，时长约 30 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.5
+                                          },
+                                          {
+                                              "title":  "P017 【语法基础】字符串增删改查操作方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=17",
+                                              "description":  "Bilibili 分P：【语法基础】字符串增删改查操作方法，时长约 39 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.64
+                                          },
+                                          {
+                                              "title":  "P018 【语法基础】字符串判断与转换方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=18",
+                                              "description":  "Bilibili 分P：【语法基础】字符串判断与转换方法，时长约 29 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.48
+                                          },
+                                          {
+                                              "title":  "P019 【语法基础】列表的基本操作",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=19",
+                                              "description":  "Bilibili 分P：【语法基础】列表的基本操作，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P020 【语法基础】列表的修改和添加",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=20",
+                                              "description":  "Bilibili 分P：【语法基础】列表的修改和添加，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.22
+                                          },
+                                          {
+                                              "title":  "P021 【语法基础】列表的查找和删除",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=21",
+                                              "description":  "Bilibili 分P：【语法基础】列表的查找和删除，时长约 21 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.35
+                                          },
+                                          {
+                                              "title":  "P022 【语法基础】列表的排序和推导式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=22",
+                                              "description":  "Bilibili 分P：【语法基础】列表的排序和推导式，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P023 【语法基础】元组的概念及查找",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=23",
+                                              "description":  "Bilibili 分P：【语法基础】元组的概念及查找，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.36
+                                          },
+                                          {
+                                              "title":  "P024 【语法基础】字典概念及查找、修改和增加",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=24",
+                                              "description":  "Bilibili 分P：【语法基础】字典概念及查找、修改和增加，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.4
+                                          },
+                                          {
+                                              "title":  "P025 【语法基础】字典元素的删除及推导式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=25",
+                                              "description":  "Bilibili 分P：【语法基础】字典元素的删除及推导式，时长约 21 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.35
+                                          },
+                                          {
+                                              "title":  "P026 【语法基础】集合的概念及增加删除和推导式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=26",
+                                              "description":  "Bilibili 分P：【语法基础】集合的概念及增加删除和推导式，时长约 29 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.48
+                                          },
+                                          {
+                                              "title":  "P027 【语法基础】类型转换函数",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=27",
+                                              "description":  "Bilibili 分P：【语法基础】类型转换函数，时长约 35 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.58
+                                          },
+                                          {
+                                              "title":  "P028 【语法基础】可变数据与不可数据特点、深浅拷贝",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=28",
+                                              "description":  "Bilibili 分P：【语法基础】可变数据与不可数据特点、深浅拷贝，时长约 41 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.69
+                                          },
+                                          {
+                                              "title":  "P029 【语法基础】函数基本概念",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=29",
+                                              "description":  "Bilibili 分P：【语法基础】函数基本概念，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P030 【语法基础】函数参数类型",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=30",
+                                              "description":  "Bilibili 分P：【语法基础】函数参数类型，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P031 【语法基础】函数的返回值",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=31",
+                                              "description":  "Bilibili 分P：【语法基础】函数的返回值，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P032 【语法基础】函数作用域",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=32",
+                                              "description":  "Bilibili 分P：【语法基础】函数作用域，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.3
+                                          },
+                                          {
+                                              "title":  "P033 【语法基础】异常处理和异常抛出",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=33",
+                                              "description":  "Bilibili 分P：【语法基础】异常处理和异常抛出，时长约 30 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.51
+                                          },
+                                          {
+                                              "title":  "P034 【语法基础】python内置模块",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=34",
+                                              "description":  "Bilibili 分P：【语法基础】python内置模块，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.32
+                                          },
+                                          {
+                                              "title":  "P035 【语法基础】python第三方模块",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=35",
+                                              "description":  "Bilibili 分P：【语法基础】python第三方模块，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P036 【语法基础】自定义模块、模块导入语法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=36",
+                                              "description":  "Bilibili 分P：【语法基础】自定义模块、模块导入语法，时长约 22 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.37
+                                          },
+                                          {
+                                              "title":  "P037 【语法基础】包的概念与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=37",
+                                              "description":  "Bilibili 分P：【语法基础】包的概念与使用，时长约 18 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.3
+                                          },
+                                          {
+                                              "title":  "P038 【语法进阶】面向对象的基本概念",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=38",
+                                              "description":  "Bilibili 分P：【语法进阶】面向对象的基本概念，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P039 【语法进阶】类属性、实例属性和构造方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=39",
+                                              "description":  "Bilibili 分P：【语法进阶】类属性、实例属性和构造方法，时长约 29 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.48
+                                          },
+                                          {
+                                              "title":  "P040 【语法进阶】实例方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=40",
+                                              "description":  "Bilibili 分P：【语法进阶】实例方法，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P041 【语法进阶】魔术方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=41",
+                                              "description":  "Bilibili 分P：【语法进阶】魔术方法，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P042 【语法进阶】封装的概念及访问控制1",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=42",
+                                              "description":  "Bilibili 分P：【语法进阶】封装的概念及访问控制1，时长约 15 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.25
+                                          },
+                                          {
+                                              "title":  "P043 【语法进阶】访问控制方法2",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=43",
+                                              "description":  "Bilibili 分P：【语法进阶】访问控制方法2，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P044 【语法进阶】私有方法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=44",
+                                              "description":  "Bilibili 分P：【语法进阶】私有方法，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P045 【语法进阶】单继承",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=45",
+                                              "description":  "Bilibili 分P：【语法进阶】单继承，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.27
+                                          },
+                                          {
+                                              "title":  "P046 【语法进阶】方法重写",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=46",
+                                              "description":  "Bilibili 分P：【语法进阶】方法重写，时长约 19 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.32
+                                          },
+                                          {
+                                              "title":  "P047 【语法进阶】多继承的概念及继承的传递性",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=47",
+                                              "description":  "Bilibili 分P：【语法进阶】多继承的概念及继承的传递性，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P048 【语法进阶】继承的菱形问题",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=48",
+                                              "description":  "Bilibili 分P：【语法进阶】继承的菱形问题，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.27
+                                          },
+                                          {
+                                              "title":  "P049 【语法进阶】多态的概念与实现",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=49",
+                                              "description":  "Bilibili 分P：【语法进阶】多态的概念与实现，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P050 【语法进阶】类方法的概念与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=50",
+                                              "description":  "Bilibili 分P：【语法进阶】类方法的概念与使用，时长约 24 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.4
+                                          },
+                                          {
+                                              "title":  "P051 【语法进阶】静态方法的概念与使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=51",
+                                              "description":  "Bilibili 分P：【语法进阶】静态方法的概念与使用，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P052 【语法进阶】文件基本操作以及文件读取",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=52",
+                                              "description":  "Bilibili 分P：【语法进阶】文件基本操作以及文件读取，时长约 16 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.27
+                                          },
+                                          {
+                                              "title":  "P053 【语法进阶】open()函数与文件写入",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=53",
+                                              "description":  "Bilibili 分P：【语法进阶】open()函数与文件写入，时长约 13 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.21
+                                          },
+                                          {
+                                              "title":  "P054 【语法进阶】with的上下文管理",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=54",
+                                              "description":  "Bilibili 分P：【语法进阶】with的上下文管理，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P055 【语法进阶】os模块",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=55",
+                                              "description":  "Bilibili 分P：【语法进阶】os模块，时长约 14 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.23
+                                          },
+                                          {
+                                              "title":  "P056 【语法进阶】正则表达式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=56",
+                                              "description":  "Bilibili 分P：【语法进阶】正则表达式，时长约 20 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.34
+                                          },
+                                          {
+                                              "title":  "P057 【语法进阶】贪婪模式和非贪婪模式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=57",
+                                              "description":  "Bilibili 分P：【语法进阶】贪婪模式和非贪婪模式，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P058 【网络爬虫】网络请求",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=58",
+                                              "description":  "Bilibili 分P：【网络爬虫】网络请求，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P059 【网络爬虫】爬虫的概念和分类",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=59",
+                                              "description":  "Bilibili 分P：【网络爬虫】爬虫的概念和分类，时长约 12 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.2
+                                          },
+                                          {
+                                              "title":  "P060 【网络爬虫】基本流程和robots协议",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=60",
+                                              "description":  "Bilibili 分P：【网络爬虫】基本流程和robots协议，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P061 【网络爬虫】网络请求步骤",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=61",
+                                              "description":  "Bilibili 分P：【网络爬虫】网络请求步骤，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P062 【网络爬虫】http和https协议",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=62",
+                                              "description":  "Bilibili 分P：【网络爬虫】http和https协议，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P063 【网络爬虫】浏览器network",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=63",
+                                              "description":  "Bilibili 分P：【网络爬虫】浏览器network，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P064 【网络爬虫】请求头的介绍",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=64",
+                                              "description":  "Bilibili 分P：【网络爬虫】请求头的介绍，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P065 【网络爬虫】编解码",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=65",
+                                              "description":  "Bilibili 分P：【网络爬虫】编解码，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P066 【网络爬虫】requests基本使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=66",
+                                              "description":  "Bilibili 分P：【网络爬虫】requests基本使用，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P067 【网络爬虫】响应的保存",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=67",
+                                              "description":  "Bilibili 分P：【网络爬虫】响应的保存，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P068 【网络爬虫】响应对象的其他属性",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=68",
+                                              "description":  "Bilibili 分P：【网络爬虫】响应对象的其他属性，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P069 【网络爬虫】用户代理的介绍",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=69",
+                                              "description":  "Bilibili 分P：【网络爬虫】用户代理的介绍，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P070 【网络爬虫】user-agent池的介绍",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=70",
+                                              "description":  "Bilibili 分P：【网络爬虫】user-agent池的介绍，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P071 【网络爬虫】浏览器发送请求原理",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=71",
+                                              "description":  "Bilibili 分P：【网络爬虫】浏览器发送请求原理，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          },
+                                          {
+                                              "title":  "P072 【网络爬虫】url传参及转译",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=72",
+                                              "description":  "Bilibili 分P：【网络爬虫】url传参及转译，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.14
+                                          },
+                                          {
+                                              "title":  "P073 【网络爬虫】url传参的两种方式",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=73",
+                                              "description":  "Bilibili 分P：【网络爬虫】url传参的两种方式，时长约 11 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.18
+                                          },
+                                          {
+                                              "title":  "P074 【网络爬虫】网易云单张图片案例",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=74",
+                                              "description":  "Bilibili 分P：【网络爬虫】网易云单张图片案例，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P075 【网络爬虫】网易云单首歌曲案例",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=75",
+                                              "description":  "Bilibili 分P：【网络爬虫】网易云单首歌曲案例，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P076 【网络爬虫】网易云单个mv案例",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=76",
+                                              "description":  "Bilibili 分P：【网络爬虫】网易云单个mv案例，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P077 【网络爬虫】贴吧单页获取",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=77",
+                                              "description":  "Bilibili 分P：【网络爬虫】贴吧单页获取，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P078 【网络爬虫】贴吧翻页",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=78",
+                                              "description":  "Bilibili 分P：【网络爬虫】贴吧翻页，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.16
+                                          },
+                                          {
+                                              "title":  "P079 【网络爬虫】面向对象改写翻页",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=79",
+                                              "description":  "Bilibili 分P：【网络爬虫】面向对象改写翻页，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P080 【网络爬虫】post请求",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=80",
+                                              "description":  "Bilibili 分P：【网络爬虫】post请求，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.08
+                                          },
+                                          {
+                                              "title":  "P081 【网络爬虫】使用cookie获取登录后的页面数据",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=81",
+                                              "description":  "Bilibili 分P：【网络爬虫】使用cookie获取登录后的页面数据，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P082 【网络爬虫】post请求-金山翻译",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=82",
+                                              "description":  "Bilibili 分P：【网络爬虫】post请求-金山翻译，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P083 【网络爬虫】session自动携带cookie",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=83",
+                                              "description":  "Bilibili 分P：【网络爬虫】session自动携带cookie，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P084 【网络爬虫】cookie池的介绍",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=84",
+                                              "description":  "Bilibili 分P：【网络爬虫】cookie池的介绍，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P085 【网络爬虫】代理ip介绍",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=85",
+                                              "description":  "Bilibili 分P：【网络爬虫】代理ip介绍，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P086 【网络爬虫】代理ip使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=86",
+                                              "description":  "Bilibili 分P：【网络爬虫】代理ip使用，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P087 【网络爬虫】代理ip的测试",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=87",
+                                              "description":  "Bilibili 分P：【网络爬虫】代理ip的测试，时长约 10 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.17
+                                          },
+                                          {
+                                              "title":  "P088 【网络爬虫】retrying模块和timeout",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=88",
+                                              "description":  "Bilibili 分P：【网络爬虫】retrying模块和timeout，时长约 9 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.15
+                                          },
+                                          {
+                                              "title":  "P089 【网络爬虫】异步加载数据包",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=89",
+                                              "description":  "Bilibili 分P：【网络爬虫】异步加载数据包，时长约 3 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.05
+                                          },
+                                          {
+                                              "title":  "P090 【网络爬虫】豆瓣电影翻页",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=90",
+                                              "description":  "Bilibili 分P：【网络爬虫】豆瓣电影翻页，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P091 【网络爬虫】文本数据的分类",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=91",
+                                              "description":  "Bilibili 分P：【网络爬虫】文本数据的分类，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P092 【网络爬虫】json格式和Python格式互转",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=92",
+                                              "description":  "Bilibili 分P：【网络爬虫】json格式和Python格式互转，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P093 【网络爬虫】jsonpath的使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=93",
+                                              "description":  "Bilibili 分P：【网络爬虫】jsonpath的使用，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P094 【网络爬虫】拉勾网",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=94",
+                                              "description":  "Bilibili 分P：【网络爬虫】拉勾网，时长约 8 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.13
+                                          },
+                                          {
+                                              "title":  "P095 【网络爬虫】豆瓣单页数据分析",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=95",
+                                              "description":  "Bilibili 分P：【网络爬虫】豆瓣单页数据分析，时长约 5 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.09
+                                          },
+                                          {
+                                              "title":  "P096 【网络爬虫】单页数据获取",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=96",
+                                              "description":  "Bilibili 分P：【网络爬虫】单页数据获取，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P097 【网络爬虫】xpath helper的安装和使用",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=97",
+                                              "description":  "Bilibili 分P：【网络爬虫】xpath helper的安装和使用，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P098 【网络爬虫】xpath语法",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=98",
+                                              "description":  "Bilibili 分P：【网络爬虫】xpath语法，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.11
+                                          },
+                                          {
+                                              "title":  "P099 【网络爬虫】xpath获取文本数据",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=99",
+                                              "description":  "Bilibili 分P：【网络爬虫】xpath获取文本数据，时长约 6 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.1
+                                          },
+                                          {
+                                              "title":  "P100 【网络爬虫】xpath获取属性值",
+                                              "url":  "https://www.bilibili.com/video/BV1wG1sBHEXv?p=100",
+                                              "description":  "Bilibili 分P：【网络爬虫】xpath获取属性值，时长约 7 分钟",
+                                              "type":  "course",
+                                              "estimatedHours":  0.12
+                                          }
+                                      ]
+                        }
+                    ]
+}
+
